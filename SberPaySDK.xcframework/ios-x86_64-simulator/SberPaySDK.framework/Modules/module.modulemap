@@ -1,0 +1,11 @@
+framework module SberPaySDK {
+  umbrella header "SberPaySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SberPaySDK.Swift {
+  header "SberPaySDK-Swift.h"
+  requires objc
+}
