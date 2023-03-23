@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		OIQDKSfPz52crVcvbZX7YbSgTEc=
+		DhrK552vEla68xrQAkyfjDoRWBU=
 		</data>
 		<key>Auth.json</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/SberPaySDK-Swift.h</key>
 		<data>
-		uQ6Kp1l5B+Ml9+MeE5P3p+WHtAg=
+		FDxpt0tOe+Yx/kCt8V/4hEIgwV4=
 		</data>
 		<key>Headers/SberPaySDK.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tf6lJBD7US/gmjdemnfDSu1HgAY=
+		sgCzJHdz0OL5RQrCEspO2/iNm9U=
 		</data>
 		<key>ListCards.json</key>
 		<data>
@@ -34,23 +34,23 @@
 		</data>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uM9RLXrPCG0PKYPOs0JzPR+bi3M=
+		XqmVHhFrN9SrrsPmNja5KJYtr+M=
 		</data>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		t+W9FSGUL3YBmPg67jHlJ3f5U94=
+		/mKsP+f7KkE/SOHrmA35DlqteCc=
 		</data>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zjl+i49yRlA/zA+OSSTcbzTffFs=
+		oKC5x9mmwSIHD7pVEOhbsCv0kTw=
 		</data>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		t+W9FSGUL3YBmPg67jHlJ3f5U94=
+		/mKsP+f7KkE/SOHrmA35DlqteCc=
 		</data>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		E1JOFLWc/guXJFmQGXfzTj5buwc=
+		eTurgmnrQ6UN10cuUuQ4Ett2SQM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yv2P42F/ORnQSmvrekVwvf1jjdX3+8pzDC6brXfeqXI=
+			edprHPPYqmuh0grQ/qnCBCz4uqFcOgW15AHAZ26hixw=
 			</data>
 		</dict>
 		<key>Auth.json</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LAXQHAtQLZ0IO8cbRL7tqGfmZQjp7+aV8NYXKYb3+p0=
+			Dm/EwKY6aS4SDywyeiMvhXCxHEVdUjaVZuD5qWDmRWU=
 			</data>
 		</dict>
 		<key>Headers/SberPaySDK.h</key>
@@ -155,35 +155,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			psqqmzuJQ0EptLEuvsk642k61eRRZrqVVN9tHma49pA=
+			iYo4JoGNU3dkv2vT9GAWJmL88NeErY+oCz7Jo+aiyOQ=
 			</data>
 		</dict>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ujr1nj+pAioH07wYW1zP6MeuuXCnXeJe8K7iLiIBCNU=
+			+gq3KIPc3zbg4+irrO21wssOKrLLSil2u0yDkyVbBaI=
 			</data>
 		</dict>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			arL1hWAWhWvmPYToVZ2RUb37XBb88DCDy84Npz6onSA=
+			EvIWYJCTcnxUhWF3YFnkg8sJiVl/Bhmt7Zawi0TZiHg=
 			</data>
 		</dict>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ujr1nj+pAioH07wYW1zP6MeuuXCnXeJe8K7iLiIBCNU=
+			+gq3KIPc3zbg4+irrO21wssOKrLLSil2u0yDkyVbBaI=
 			</data>
 		</dict>
 		<key>Modules/SberPaySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yqk8guL0OU2lBSAqO7CpWQt8v7akQ7yDsdIda7eYAi4=
+			eu+jQTmZD/VqQ5h+4n4+Bhh8vdn8nwutprG6CdFVR28=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
