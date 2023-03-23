@@ -1,0 +1,113 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SberPaySDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import CoreLocation
+import Foundation
+@_exported import SberPaySDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers @objc(SBPaymentTokenRequest) final public class SBPaymentTokenRequest : ObjectiveC.NSObject {
+  @objc convenience public init(apiKey: Swift.String, merchantLogin: Swift.String?, orderId: Swift.String, redirectUri: Swift.String)
+  @objc convenience public init(apiKey: Swift.String, redirectUri: Swift.String, merchantLogin: Swift.String?, amount: Swift.Int, currency: Swift.String, mobilePhone: Swift.String?, orderNumber: Swift.String, recurrentExipiry: Swift.String, recurrentFrequency: Swift.Int)
+  @objc deinit
+}
+extension UIKit.UIImageView : SberPaySDK.SBShimmeringView {
+}
+@_hasMissingDesignatedInitializers @objc(SBPaymentRequest) final public class SBPaymentRequest : ObjectiveC.NSObject {
+  @objc convenience public init(apiKey: Swift.String, orderId: Swift.String, paymentToken: Swift.String)
+  @objc convenience public init(apiKey: Swift.String, orderId: Swift.String, paymentTokenId: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class SBPay : ObjectiveC.NSObject {
+  @objc public static func setup()
+  @objc public static var isReadyForSberPay: Swift.Bool {
+    @objc get
+  }
+  @objc public static func getPaymentToken(with viewController: UIKit.UIViewController, with paymentTokenRequest: SberPaySDK.SBPaymentTokenRequest, completion: @escaping (SberPaySDK.SBPaymentTokenResponse) -> Swift.Void)
+  @objc public static func pay(with paymentRequest: SberPaySDK.SBPaymentRequest, completion: @escaping (_ state: SberPaySDK.SBPayState, _ info: Swift.String) -> Swift.Void)
+  @objc public static func payWithOrderId(with viewController: UIKit.UIViewController, with paymentRequest: SberPaySDK.SBFullPaymentRequest, completion: @escaping (_ state: SberPaySDK.SBPayState, _ info: Swift.String) -> Swift.Void)
+  @objc public static func completePayment(paymentState: SberPaySDK.SBPayState, completion: @escaping () -> Swift.Void)
+  @objc public static func getAuthURL(_ url: Foundation.URL)
+  public static func debugConfig(network: SberPaySDK.NetworkState, ssl: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum HTTPMethod : Swift.String {
+  case get
+  case post
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public enum SBPayState : Swift.Int {
+  case success = 0
+  case waiting
+  case error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol SBShimmeringView : UIKit.UIView {
+  var shimmeringAnimatedItems: [UIKit.UIView] { get }
+  var excludedItems: Swift.Set<UIKit.UIView> { get }
+}
+extension SberPaySDK.SBShimmeringView {
+  public var shimmeringAnimatedItems: [UIKit.UIView] {
+    get
+  }
+  public var excludedItems: Swift.Set<UIKit.UIView> {
+    get
+  }
+}
+public typealias Action = (() -> Swift.Void)
+@objc(SBFullPaymentRequest) final public class SBFullPaymentRequest : ObjectiveC.NSObject {
+  @objc public init(apiKey: Swift.String, merchantLogin: Swift.String? = nil, orderId: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class SBPError : ObjectiveC.NSObject {
+  @objc public var errorDescription: Swift.String
+  @objc deinit
+}
+public enum NetworkState : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case Test, Prod, Local
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [SberPaySDK.NetworkState]
+  public typealias RawValue = Swift.String
+  public static var allCases: [SberPaySDK.NetworkState] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc(SBPaymentTokenResponse) final public class SBPaymentTokenResponse : ObjectiveC.NSObject {
+  @objc final public var paymentToken: Swift.String?
+  @objc final public var paymentTokenId: Swift.String?
+  @objc final public var tokenExpiration: Swift.Int
+  @objc final public var error: SberPaySDK.SBPError?
+  @objc public init(paymentToken: Swift.String? = nil, paymentTokenId: Swift.String? = nil, tokenExpiration: Swift.Int = 0, error: SberPaySDK.SBPError? = nil)
+  @objc deinit
+}
+@objc @IBDesignable @_Concurrency.MainActor(unsafe) final public class SBPButton : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) final public var tapAction: SberPaySDK.Action?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension SberPaySDK.HTTPMethod : Swift.Equatable {}
+extension SberPaySDK.HTTPMethod : Swift.Hashable {}
+extension SberPaySDK.HTTPMethod : Swift.RawRepresentable {}
+extension SberPaySDK.SBPayState : Swift.Equatable {}
+extension SberPaySDK.SBPayState : Swift.Hashable {}
+extension SberPaySDK.SBPayState : Swift.RawRepresentable {}
+extension SberPaySDK.NetworkState : Swift.Equatable {}
+extension SberPaySDK.NetworkState : Swift.Hashable {}
+extension SberPaySDK.NetworkState : Swift.RawRepresentable {}
