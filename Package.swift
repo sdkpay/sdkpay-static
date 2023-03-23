@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(name: "SberPaySDK",
                       path: "SberPaySDK.xcframework"),
-        .target(name: "SberPaySDK",
+        .target(name: "SberPaySDKPackage",
                 dependencies: [
                     .target(name: "SberPaySDK")
                 ],
