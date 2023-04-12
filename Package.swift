@@ -4,26 +4,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "SberPaySDK",
+    name: "SPaySdk",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "SberPaySDK",
-            targets: ["SberPaySDK"]),
+            name: "SPaySdk",
+            targets: ["SPaySdk"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(name: "SberPaySDK",
-                      path: "SberPaySDK.xcframework"),
-        .target(name: "SberPaySDKPackage",
+        .binaryTarget(name: "SPaySdk",
+                      path: "SPaySdk.xcframework"),
+        .target(name: "SPaySdkPackage",
                 dependencies: [
-                    .target(name: "SberPaySDK")
+                    .target(name: "SPaySdk")
                 ],
                 path: "./"
     )
