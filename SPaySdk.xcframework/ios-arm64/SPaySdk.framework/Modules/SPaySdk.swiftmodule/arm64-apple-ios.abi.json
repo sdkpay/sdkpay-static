@@ -4893,9 +4893,9 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Services\/RemoteConfigService\/RemoteConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 264,
-      "length": 4,
-      "value": "true"
+      "offset": 239,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Resources\/Localization\/Localization.swift",
@@ -6972,7 +6972,7 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Helpers\/UI\/Loader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1159,
+      "offset": 1114,
       "length": 4,
       "value": "true"
     },

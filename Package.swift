@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SPaySdk",
+    defaultLocalization: "ru",
     platforms: [
         .iOS(.v12)
     ],
