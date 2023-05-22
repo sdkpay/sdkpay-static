@@ -5779,13 +5779,13 @@
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Resources\/Certificates\/Certificates.swift",
       "kind": "StringLiteral",
       "offset": 248,
-      "length": 15,
-      "value": "\"ecomtest.s.ru\""
+      "length": 28,
+      "value": "\"ift.gate1.spaymentsplus.ru\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Resources\/Certificates\/Certificates.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 292,
       "length": 9,
       "value": "\"cms-res\""
     },
@@ -5800,13 +5800,13 @@
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Resources\/Certificates\/Certificates.swift",
       "kind": "StringLiteral",
       "offset": 248,
-      "length": 15,
-      "value": "\"ecomtest.s.ru\""
+      "length": 28,
+      "value": "\"ift.gate1.spaymentsplus.ru\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Resources\/Certificates\/Certificates.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 292,
       "length": 9,
       "value": "\"cms-res\""
     },
@@ -7031,21 +7031,21 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1465,
+      "offset": 1478,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2065,
+      "offset": 2091,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-project\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4553,
+      "offset": 4669,
       "length": 1,
       "value": "0"
     },
