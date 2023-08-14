@@ -254,6 +254,7 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
+
 @class NSCoder;
 
 IB_DESIGNABLE
@@ -264,6 +265,12 @@ SWIFT_CLASS("_TtC7SPaySdk9SBPButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
+typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
+  SEnvironmentProd = 0,
+  SEnvironmentSandboxWithoutBankApp = 1,
+  SEnvironmentSandboxRealBankApp = 2,
+};
 
 @class NSString;
 
@@ -293,7 +300,7 @@ enum SPayState : NSInteger;
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
 @interface SPay : NSObject
 /// Ключ Kлиента для работы с сервисами платежного шлюза через SDK.
-+ (void)setupWithApiKey:(NSString * _Nonnull)apiKey completion:(void (^ _Nullable)(void))completion;
++ (void)setupWithApiKey:(NSString * _Nonnull)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
 /// Требуется задать LSApplicationQueriesSchemes в Info.plist
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
@@ -349,6 +356,22 @@ SWIFT_CLASS_NAMED("SPaymentTokenResponse")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

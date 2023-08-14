@@ -4,17 +4,185 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<data>
-		m09S8tzYKOZwKAPRJ8ivWHCQzAs=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		FoxQOQ+NWbUwzBAeasCF717YpA8=
+		YWYgWVAK8P8oUOash2HGynX9Oco=
+		</data>
+		<key>BizoneCore.framework/BizoneCore</key>
+		<data>
+		RETK/QqOejTDNlHcvbSymcta0bw=
+		</data>
+		<key>BizoneCore.framework/Headers/BZAPIRequest.h</key>
+		<data>
+		tA0R6OyG0PFu9Fhqjrozf8zrdXw=
+		</data>
+		<key>BizoneCore.framework/Headers/BZAPIRequestHeadersBuilder.h</key>
+		<data>
+		NZ4GB2B1O4glv2AAJ80R/MNzuYU=
+		</data>
+		<key>BizoneCore.framework/Headers/BZAPIRequestHeadersBuilderFactory.h</key>
+		<data>
+		Irl78c1B6BeDEDPQABlnAQ1aTwk=
+		</data>
+		<key>BizoneCore.framework/Headers/BZAuthorizationHandler.h</key>
+		<data>
+		ughhcOsufuelZPfw2nHIgkD8+VQ=
+		</data>
+		<key>BizoneCore.framework/Headers/BZCrypto.h</key>
+		<data>
+		WZSygZWpPqErCHk5BK9rcriML1s=
+		</data>
+		<key>BizoneCore.framework/Headers/BZDefaultAPIClient.h</key>
+		<data>
+		XxZe4SVavWMJN4ZWTWkghx0fPjo=
+		</data>
+		<key>BizoneCore.framework/Headers/BZHTTPMethod.h</key>
+		<data>
+		mp5k6RY1uZOQvBdtd0c1PAURfpk=
+		</data>
+		<key>BizoneCore.framework/Headers/BZJSONMappable.h</key>
+		<data>
+		ngmnIosRQpBydQ6V/j2+zgKg1Rs=
+		</data>
+		<key>BizoneCore.framework/Headers/BZJSONSerializer.h</key>
+		<data>
+		G8jKdyfAzHB/4uRqL0KEaPFJ6P0=
+		</data>
+		<key>BizoneCore.framework/Headers/BZLogger.h</key>
+		<data>
+		ScC87p2FW8b7YUOpZsYvNbuGzxQ=
+		</data>
+		<key>BizoneCore.framework/Headers/BZNetworking.h</key>
+		<data>
+		H95pxBHKieOcEkPTcv3O9yn89zs=
+		</data>
+		<key>BizoneCore.framework/Headers/BizoneCore.h</key>
+		<data>
+		X2NUPQbRuJiZASYKhowqzNMv1rU=
+		</data>
+		<key>BizoneCore.framework/Info.plist</key>
+		<data>
+		R0FtKC4zFenakqt30nH0H4YBAag=
+		</data>
+		<key>BizoneCore.framework/Modules/module.modulemap</key>
+		<data>
+		+naEFXyje3pfVZbUceeyyhUrHOQ=
+		</data>
+		<key>BizoneCore.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		yd2c9/XQL9FGBiz1osKPOUbMb6E=
+		</data>
+		<key>BizoneCore.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>BizoneCore.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		p5O7iZkHYv9XfrryiXeciLXXvZU=
+		</data>
+		<key>BizoneCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		GqUznzYZ6bN9sUGqI+cS1c3R23o=
+		</data>
+		<key>BizoneCore.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Fingerprint.framework/Fingerprint</key>
+		<data>
+		FK9f2uHBNPTeJf5m7jmYLxN8b8Q=
+		</data>
+		<key>Fingerprint.framework/Headers/FPCachingTime.h</key>
+		<data>
+		bMnnPp0r4JbYiu5R5T8W0JluEbg=
+		</data>
+		<key>Fingerprint.framework/Headers/FPConfiguration.h</key>
+		<data>
+		LEjFhkz9m+TdmGdUQntV3pOmlzM=
+		</data>
+		<key>Fingerprint.framework/Headers/FPDemoExternalParameter.h</key>
+		<data>
+		Kp3D1S330pizz0wZEtzAqY2ykMw=
+		</data>
+		<key>Fingerprint.framework/Headers/FPEventNameExternalParameter.h</key>
+		<data>
+		g886G1jjnPbOnc1h8zDnalGUMSM=
+		</data>
+		<key>Fingerprint.framework/Headers/FPExternalParameter.h</key>
+		<data>
+		8l3mv2hpc+f1IMsv4pwflOuVxJY=
+		</data>
+		<key>Fingerprint.framework/Headers/FPExternalParameterProtocol.h</key>
+		<data>
+		Rfeepv2iSQ8UEPEx+56Zjh5jRFg=
+		</data>
+		<key>Fingerprint.framework/Headers/FPHardwareIDPatch.h</key>
+		<data>
+		F89cO8K0Rr3FxZQNGw+AY2STLD8=
+		</data>
+		<key>Fingerprint.framework/Headers/FPMetric.h</key>
+		<data>
+		th/cDIo6rNHFvHop+6NW/pxsj7U=
+		</data>
+		<key>Fingerprint.framework/Headers/FPMetricPatch.h</key>
+		<data>
+		rbmCYjIGwJ/NqlIL9iAxOf8fauI=
+		</data>
+		<key>Fingerprint.framework/Headers/FPMetricPatchProtocol.h</key>
+		<data>
+		bZ5KVFyMoKCntU1l+ZN3PJdnQ58=
+		</data>
+		<key>Fingerprint.framework/Headers/FPMetricResolver.h</key>
+		<data>
+		glgSZsnapFs3dNiiSRHo7hG+29w=
+		</data>
+		<key>Fingerprint.framework/Headers/FPReport.h</key>
+		<data>
+		uDONknacjZ3JbpkfUJLs+7cLCS8=
+		</data>
+		<key>Fingerprint.framework/Headers/FPReportProviderProtocol.h</key>
+		<data>
+		OIbSpWlkM3koEC7dSgyLMBD37zQ=
+		</data>
+		<key>Fingerprint.framework/Headers/FPSDKFactory.h</key>
+		<data>
+		Uv+qeynD4smxXyslPjJ9wYJtt0s=
+		</data>
+		<key>Fingerprint.framework/Headers/Fingerprint.h</key>
+		<data>
+		sPpgg6K0I2QCBs9+wTjL6XUVE4A=
+		</data>
+		<key>Fingerprint.framework/Info.plist</key>
+		<data>
+		Epto7lsfte6MLsGMzRSY5ob5lqw=
+		</data>
+		<key>Fingerprint.framework/Modules/module.modulemap</key>
+		<data>
+		0rlyfJTGpkZriw2KmYP6BA+pEzQ=
+		</data>
+		<key>Fingerprint.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		n2FnYkonWuAcSlS5O17YvUlmaI8=
+		</data>
+		<key>Fingerprint.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Fingerprint.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		hAeVxqIbeQ/GewPTo+Alju+/nNM=
+		</data>
+		<key>Fingerprint.framework/_CodeSignature/CodeResources</key>
+		<data>
+		l2dxs6TWay+SR0u7hO8Qo+5dXkc=
+		</data>
+		<key>Fingerprint.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Headers/SPaySdk-Swift.h</key>
 		<data>
-		PX6cSkQj8uZMZ4TYD2BdzyK1E2Q=
+		RehhfZk9lHh3TH1BJ2wAJPvGqSU=
 		</data>
 		<key>Headers/SPaySdk.h</key>
 		<data>
@@ -22,51 +190,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/KD9qkdlseFJuGdPR+T0lTHS2bY=
+		0Ix1arUP48pVsmOi9KhaPm7S1bs=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		G/k/STJ67DS6f5+qVbll5bjCekg=
+		sheOzINoNjJEi5Munj0bKCqLWbA=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8lZ5xCN2PtHKJhZO2WhYCs/Wlg8=
+		U4Dn8WioPpgIHBdDe3pI56Vh988=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BEDH4MjTZchGOq4U4cjMywbYcYo=
+		yoOCVyP4qDtlWSxdeiU4svst0I4=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8lZ5xCN2PtHKJhZO2WhYCs/Wlg8=
+		U4Dn8WioPpgIHBdDe3pI56Vh988=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		v+H/HwFEwvQYgr32cp81Fc9F0E0=
+		6jozzHrzUIAIX7pt9X9aZ7MFEXQ=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		G/k/STJ67DS6f5+qVbll5bjCekg=
+		sheOzINoNjJEi5Munj0bKCqLWbA=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aCC0jZ810AXP2ytvmPY3RhQUR9g=
+		C6fiscSHCVZw5abAgtWYO1W0EGE=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c2zG0nEEFRWei93GuIyRa/iLlQw=
+		ggcgTtjZVf/i3cHKNDWsDyDqOwA=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aCC0jZ810AXP2ytvmPY3RhQUR9g=
+		C6fiscSHCVZw5abAgtWYO1W0EGE=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zcs8LcEDYa2rFp6A8ls3VuXOmM4=
+		LUASmJZ+fwrpF2/eV4AkJePE2DQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		lGuxCuo+L+ghiGtFGYom829skT8=
+		</data>
+		<key>SB Sans Display Semibold.ttf</key>
+		<data>
+		wlJg0lv1vviuGYq3RXSmg5gvRcg=
 		</data>
 		<key>SB Sans Text Medium.ttf</key>
 		<data>
@@ -80,40 +252,32 @@
 		<data>
 		WEBVfzoZIfRUEGCdn5sYUfmoxiA=
 		</data>
-		<key>cms-res.der</key>
-		<data>
-		VelGbVz9s6JcJlgZ4/x5N6FkMzw=
-		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FVV0zHWbZS0qAoaXFERpoVNWVBw=
+			+OW+NiKheVVhL8S5hijFMd3m9nY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>ift.gate1.spaymentsplus.ru.der</key>
-		<data>
-		DBlyKZH9CzAUQK5TE1K111kkuO8=
-		</data>
 		<key>neg.mp3</key>
 		<data>
-		JyoWN+U/LmHm2PaCNJpzYiFvJQI=
+		JCAWIQ3Zjb+57zZw6L8lqy/9YIA=
 		</data>
 		<key>poz.mp3</key>
 		<data>
-		d2wOn+d2u75mXsRiPOPhAMuTPzI=
+		TBhTJxEBXCjDygjfmsAG4k6Rjbk=
 		</data>
-		<key>psi.spaymentsplus.ru.der</key>
+		<key>progress.mp3</key>
 		<data>
-		2sKsz9lm/LRiUDkeOrKiUf4ZbpI=
+		kq58czzqALPzCwLvwxduT4eLRmE=
 		</data>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qIS6TR3aagQWjQZ50iQTB9bAmow=
+			5ZJCz7Ot6bDojlZXnUrTo1ddsNs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -121,25 +285,319 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>.swiftlint.yml</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9mba4tL0/lIrJ6MB26QL6jsYBpNmYureAhT2+1xgyOI=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xoitxqXyEVhxV9vKrSSx2e/H4C2pkhWFhofLD8xCmqk=
+			rqKSzcszcyKnNy8BHsHUL3u9OXU+1B4EmEqiAr0nQ7s=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/BizoneCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oC9ipUmOVYHZCaarD5GdTi6r32garUjBrJ31qFpN2Ug=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZAPIRequest.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wB5f53zh73zQmLS04Lida8E1TboN8KbyQC/rUWpP1qI=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZAPIRequestHeadersBuilder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e+sLZZgkSouwR+iTtMBS1EpaeJWfzogL896uaf50qTQ=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZAPIRequestHeadersBuilderFactory.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Dxqq3NltCS4XYakgVV9weXVYlXkNtudLxovTC7Eu3LI=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZAuthorizationHandler.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7QQKgBSRwhEhf8NBZW9Au2hZyiIqG5nc9/7T2nSZyFs=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZCrypto.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e8DnGPuQwQJVyFPfGL1/Bglh+RKZJfyX5o/t/FpwwlM=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZDefaultAPIClient.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g0tPMPb/eCohw2wbRX5t73rY++0MoH9URgBde1zn4O4=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZHTTPMethod.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v5Qn8vzmp+GtMK8APSJC46kZEaXI1E3pk+MuRcFiS8c=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZJSONMappable.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SCFws7yKfDQaARGUlTj23TP7s3A0IABrEGwsT85KL2A=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZJSONSerializer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mlLMkkxnjiss/mA7IvlFZGNDRq4iPIEXvqT6Cc4jwgU=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZLogger.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OtAAMT/kmnCE1Yytgn40RudVQaWTKQb7sd+F13MaK7Q=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BZNetworking.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5UzE7g/kPz4rKxcOaQ7TS18eBwmgJIhKgxkOdbenVSo=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Headers/BizoneCore.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PVNdelI3KHubkcksyVJ5n+8eBmt2zrNgSNH1z8BLMM8=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XExHbwa//nvYNb8Pt/mILoWMrtmw2Bp7oe/Da2Qy5MU=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZygCNbyfq3DP4PuVudysiXyE8vS9MZPYT9NHQt2JPH8=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7PWKo/xCwR8oAPGObcRV6Y3BFD4Y1I1STPGB0a4iCbE=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1/+SIw3yNq0GIPRj7VsJjO5TCJAKGQna6RPt0o0w4Q4=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T7j2qMOia+Du28G+O31SKEXLiyXc5ii8rx36w43k2KI=
+			</data>
+		</dict>
+		<key>BizoneCore.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Fingerprint</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9iB006f5qlhSfhL9rPN/Bp7hHcaaAhXCQU1TU3FHMMU=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPCachingTime.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BGwuyskELEXvyJk44EgKuLVCNCRzGfCD/KzS7U3dhL0=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPConfiguration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JRmuv2alNXPOgolmyEGP4RvCW+XeOL4U7dyQRsvZfn8=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPDemoExternalParameter.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OoN/OBBGMiNeVgkVMpY159KBFVmruxS8rkM/bIIA+mw=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPEventNameExternalParameter.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EbTDjKAYQX0a3ywl+YpgKtuH8e+IX380xdFEr1nSK70=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPExternalParameter.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OwJ4GP8gVNh4Ntvb1zI4vdsMXyuNX36WCfLAbKHSO54=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPExternalParameterProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			40kFvTAj1sQoyj7P4ttP5PwjEcJIZFXribuQ9OwVFh8=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPHardwareIDPatch.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aPPthB1iUv3r3H/bpFZ+jdr7vYNOmgMjiEw4YLD8Oz8=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPMetric.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HArhKZUSpE0ISeQECIpuRnWUdYjWbOrXaIIIoMz5hIA=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPMetricPatch.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mrkcVCnm9n3C8XgMBILvcEnROVtFADDZmJ1bT0ITdSE=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPMetricPatchProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0AFQcrokB+s8/fjt16FfCJA0h4WZ8ZREPqEgAJnmbw4=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPMetricResolver.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DysXtPfdlAHZrjfXU2Ht4K+qwvSLhPoY1TbXYVH//zo=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPReport.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JzJWvIxRnlALcwLNgcXT1h3R+9RHzShjmkCVh0HS7bc=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPReportProviderProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TRteZ3uyXEEeh5XO0CIeWMbS8Fgr0Kq6n9Lp/wCEeO0=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/FPSDKFactory.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jNln4vNubnO3ByS+Ry1FGaEGO/TA+iqsebyi7EfMkpg=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Headers/Fingerprint.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KrgcGJPD7ahGbvQrp39pd3Bgc/n1G05tYKHlq5ofhTQ=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+SPTvofrJcrJRGPFCZ+IKf7iwcgo1zKs7z6vf7zZYQ0=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mBw5OYhpouV4VwKFU4NlUd43H0baSXpU9tT7ZwXWFLk=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D/Ar7Fwx7y49CgB/6piUtLB9epVQJcTO8qgfZxzFCR0=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iQGWdpdikLTvmUQYDZsgxPR9X+rhoLNAeFBlZuXEPko=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IhAauifPCNLBMCEuXcXXrCzRvHQbuyD2jB79/wB1FBA=
+			</data>
+		</dict>
+		<key>Fingerprint.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>Headers/SPaySdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LIFkMU3m4T31M0/lOhYgRmxmPTusCBtTgll4/T6/QQY=
+			ePdDUwmGAqUrsX9eOo7gvROBDgN5sguhXoo3OCfqmCg=
 			</data>
 		</dict>
 		<key>Headers/SPaySdk.h</key>
@@ -153,70 +611,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Glsz/SAUdqbM3qjpd3vdxxdps/qNNlCiJ7iUEx5wfyg=
+			479kYjAipMRR2oLy2psTJJa54LSu4HXb2fxuo0+iduA=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r8vo5DhAC0VHA5uHm0lo6TOMbrA1XlqYCR7n2rTW6Ek=
+			1Chdc5FarfdWBtZvzgU8tew0h2UzKKSMZUNsrndJ7io=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o/gq/mJ5pg6Hs9udJo/gfgv0u0p/i92Ap99qL82yh8c=
+			dQHFouqwlxq8g9OjrSM5nXiFSUuZTsxHYixeJmgbv2E=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r8vo5DhAC0VHA5uHm0lo6TOMbrA1XlqYCR7n2rTW6Ek=
+			1Chdc5FarfdWBtZvzgU8tew0h2UzKKSMZUNsrndJ7io=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bkuc7HCUSeGVMAV/uqW/vLjtxELQPFkaExU5Xl9WT54=
+			77vJ5xtcQ5InbJ2L1kotagv9swsKAWEYABgEHmQbI9I=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Glsz/SAUdqbM3qjpd3vdxxdps/qNNlCiJ7iUEx5wfyg=
+			479kYjAipMRR2oLy2psTJJa54LSu4HXb2fxuo0+iduA=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZA4KrqQX7PNr8Mw2DDViyuwmIPlIXjJab+GSFsHWjgM=
+			MoooOkaAwrlv62PUQJmU8KogRFl5XlHiJ2psHFPaXcs=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QeYaOtxAjKl8EeE4OnE1j/N801ESxO94Sf7JBdtjb8c=
+			fgEHFxbX5CIa+Y7V8a2RDMRr3PADUt7zQbjC8JpbSHY=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZA4KrqQX7PNr8Mw2DDViyuwmIPlIXjJab+GSFsHWjgM=
+			MoooOkaAwrlv62PUQJmU8KogRFl5XlHiJ2psHFPaXcs=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5jVYt2o5tIeXvJYZGag30x100BDsrUvYAjJgqAGDK/Q=
+			X1Fqr3DJi7zNWpwfp/7uNlE9EU1eDejdwTU0TelyPYc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -224,6 +682,13 @@
 			<key>hash2</key>
 			<data>
 			fFV4yDhoxk2Zr9fwfpeJlvSD66K3v7Z2MetZS82F59Y=
+			</data>
+		</dict>
+		<key>SB Sans Display Semibold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PwhQIehpUO9hsDhsmcy98wvyZJBBoGZIdw4at4ukEgM=
 			</data>
 		</dict>
 		<key>SB Sans Text Medium.ttf</key>
@@ -247,55 +712,41 @@
 			ZJy3Eth2wxhg9vC/fCs55pdjUwrcyErETRBH40y9JXQ=
 			</data>
 		</dict>
-		<key>cms-res.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hAbK7NdcmsFVyr/5BvjxfMRButvS1rbKNI8g8+HmzJk=
-			</data>
-		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CRwOE/0FyodBYtAmHYvbDBBI+b3+FtTVHTUvYYWYmws=
+			v8KTY9tsUutg9kfjRRzKxVYsfNZR2mqAvJJ50rvzKo8=
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>ift.gate1.spaymentsplus.ru.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G9+CFMLnzXHRpavemc1+g7dr49pu1OlECFRdAJHI42U=
-			</data>
 		</dict>
 		<key>neg.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E/qvHHFqWzvhpEv+qBfWICyvv5ByxMaFXAOCWgauwck=
+			Nss5PPWRYg6bjpQIXg5j1742Ss14lj6LYA1/S/mmFWc=
 			</data>
 		</dict>
 		<key>poz.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8xuUdY6W18Z+fuhgYFsTocSdbyEGtLUdVHc6/VGW6tY=
+			rNIJ5RYmc+biq0NNOTxuDXq5Q/C/xzGjUoyTYRyxs2w=
 			</data>
 		</dict>
-		<key>psi.spaymentsplus.ru.der</key>
+		<key>progress.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MWmGLsLLUuufqy/prpj9YEmEP600gB5v3eD0ex5oslM=
+			ON1U4tmM6xcX2eQ71IVL4PpoM7TEOsNHHlo4tZRZmOk=
 			</data>
 		</dict>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YJNaQ87gS5+UaEKtxwFpfQGJ1ev/+vk2JZ/gnVOYeL4=
+			som0B0/WfIfp558SvddLVZItOUhZx2bsedd7hJB3Dfk=
 			</data>
 			<key>optional</key>
 			<true/>

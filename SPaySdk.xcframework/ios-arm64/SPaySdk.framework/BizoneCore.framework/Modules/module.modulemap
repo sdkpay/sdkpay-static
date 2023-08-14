@@ -1,0 +1,25 @@
+framework module BizoneCore {
+  umbrella header "BizoneCore.h"
+  
+  export *
+  
+  explicit module Networking {
+	  header "BZAPIRequest.h"
+	  header "BZHTTPMethod.h"
+	  header "BZNetworking.h"
+	  header "BZDefaultAPIClient.h"
+	  header "BZJSONSerializer.h"
+	  header "BZJSONMappable.h"
+	  header "BZAuthorizationHandler.h"
+	  header "BZAPIRequestHeadersBuilderFactory.h"
+	  header "BZAPIRequestHeadersBuilder.h"
+  }
+  
+  explicit module Crypto {
+	  header "BZCrypto.h"
+  }
+  
+  explicit module Logger {
+	  header "BZLogger.h"
+  }
+}
