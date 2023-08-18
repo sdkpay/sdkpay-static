@@ -1,6 +1,0 @@
-framework module Fingerprint {
-  umbrella header "Fingerprint.h"
-
-  export *
-  module * { export * }
-}

@@ -1262,6 +1262,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Network",
         "printedName": "Network",
         "declKind": "Import",
@@ -2615,7 +2625,172 @@
         "usr": "c:@M@SPaySdk@objc(cs)SFullPaymentRequest",
         "mangledName": "$s7SPaySdk19SFullPaymentRequestC",
         "moduleName": "SPaySdk",
+        "deprecated": true,
         "objc_name": "SFullPaymentRequest",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SBankInvoicePaymentRequest",
+        "printedName": "SBankInvoicePaymentRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(merchantLogin:bankInvoiceId:language:redirectUri:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SBankInvoicePaymentRequest",
+                "printedName": "SPaySdk.SBankInvoicePaymentRequest",
+                "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest(im)initWithMerchantLogin:bankInvoiceId:language:redirectUri:",
+            "mangledName": "$s7SPaySdk26SBankInvoicePaymentRequestC13merchantLogin04bankD2Id8language11redirectUriACSSSg_SSAHSStcfc",
+            "moduleName": "SPaySdk",
+            "objc_name": "initWithMerchantLogin:bankInvoiceId:language:redirectUri:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SBankInvoicePaymentRequest",
+                "printedName": "SPaySdk.SBankInvoicePaymentRequest",
+                "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest(im)init",
+            "mangledName": "$s7SPaySdk26SBankInvoicePaymentRequestCACycfc",
+            "moduleName": "SPaySdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest",
+        "mangledName": "$s7SPaySdk26SBankInvoicePaymentRequestC",
+        "moduleName": "SPaySdk",
+        "objc_name": "SBankInvoiceIdPaymentRequest",
         "declAttributes": [
           "Final",
           "AccessControl",
@@ -3794,7 +3969,76 @@
             "mangledName": "$s7SPaySdk0A0C14payWithOrderId4withAE10completionySo16UIViewControllerC_AA19SFullPaymentRequestCyAA0A5StateO_SStctFZ",
             "moduleName": "SPaySdk",
             "static": true,
+            "deprecated": true,
             "objc_name": "payWithOrderIdWith:with:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "payWithBankInvoiceId",
+            "printedName": "payWithBankInvoiceId(with:paymentRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SBankInvoicePaymentRequest",
+                "printedName": "SPaySdk.SBankInvoicePaymentRequest",
+                "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayState, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(SPaySdk.SPayState, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayState",
+                        "printedName": "SPaySdk.SPayState",
+                        "usr": "c:@M@SPaySdk@E@SPayState"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SPaySdk@objc(cs)SPay(cm)payWithBankInvoiceIdWith:paymentRequest:completion:",
+            "mangledName": "$s7SPaySdk0A0C20payWithBankInvoiceId4with14paymentRequest10completionySo16UIViewControllerC_AA05SBankf7PaymentJ0CyAA0A5StateO_SStctFZ",
+            "moduleName": "SPaySdk",
+            "static": true,
+            "objc_name": "payWithBankInvoiceIdWith:paymentRequest:completion:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -7206,6 +7450,20 @@
       "value": "\"SPaySdk.DefaultButton\""
     },
     {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 71,
+      "value": "\"https:\/\/vito.sbrf.ru:443\/mbeacon\/7e4bdb68-cd47-4ecc-b649-69eb5cd44c91\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 38,
+      "value": "\"63bb5224-894a-41f6-a558-d4ab8e62e21a\""
+    },
+    {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ExpendedButton\/ExpendedButton.swift",
       "kind": "StringLiteral",
       "offset": 156,
@@ -7663,28 +7921,28 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/LinkLabel\/LinkLabel.swift",
       "kind": "StringLiteral",
-      "offset": 283,
+      "offset": 346,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/LinkLabel\/LinkLabel.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 385,
       "length": 3,
       "value": "\">\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/LinkLabel\/LinkLabel.swift",
       "kind": "StringLiteral",
-      "offset": 358,
+      "offset": 421,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/LinkLabel\/LinkLabel.swift",
       "kind": "Dictionary",
-      "offset": 404,
+      "offset": 467,
       "length": 3,
       "value": "[]"
     },
@@ -8314,7 +8572,7 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PartPayVC\/PartPayVC.swift",
       "kind": "StringLiteral",
-      "offset": 539,
+      "offset": 537,
       "length": 9,
       "value": "\"SPaySdk.PartPayVC\""
     },
@@ -8783,7 +9041,7 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1185,
+      "offset": 1399,
       "length": 4,
       "value": "true"
     },
@@ -9035,30 +9293,37 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1570,
+      "offset": 1770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2236,
+      "offset": 2436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4751,
+      "offset": 5487,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SFullPaymentRequest.swift",
       "kind": "StringLiteral",
-      "offset": 165,
+      "offset": 1202,
       "length": 19,
       "value": "\"SPaySdk.SFullPaymentRequest\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SFullPaymentRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 26,
+      "value": "\"SPaySdk.SBankInvoicePaymentRequest\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SPButton\/SPButton.swift",
@@ -9630,273 +9895,315 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6474,
+      "offset": 7231,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6489,
+      "offset": 7246,
       "length": 10,
       "value": "\"ok.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6511,
+      "offset": 7268,
       "length": 16,
       "value": "\"Понятно\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6703,
+      "offset": 7460,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6718,
+      "offset": 7475,
       "length": 26,
       "value": "\"part.active.button.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6756,
+      "offset": 7513,
       "length": 33,
       "value": "\"Оплатить частями\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6926,
+      "offset": 7668,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6941,
+      "offset": 7683,
+      "length": 22,
+      "value": "\"part.agreement.title\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 7717,
+      "length": 22,
+      "value": "\"соглашения\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 7867,
+      "length": 13,
+      "value": "\"Localizable\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 7882,
+      "length": 21,
+      "value": "\"part.contract.title\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 7915,
+      "length": 37,
+      "value": "\"условиями договора\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 8081,
+      "length": 13,
+      "value": "\"Localizable\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
+      "kind": "StringLiteral",
+      "offset": 8096,
       "length": 21,
       "value": "\"part.inactive.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 6974,
+      "offset": 8129,
       "length": 38,
       "value": "\"Разбить на 4 платежа\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7112,
+      "offset": 8267,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7127,
+      "offset": 8282,
       "length": 16,
       "value": "\"part.pay.final\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7155,
+      "offset": 8310,
       "length": 12,
       "value": "\"Итого\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7250,
+      "offset": 8405,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7265,
+      "offset": 8420,
       "length": 16,
       "value": "\"part.pay.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7293,
+      "offset": 8448,
       "length": 27,
       "value": "\"Плати частями\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 8609,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7469,
+      "offset": 8624,
       "length": 23,
       "value": "\"part.pay.cancel.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7504,
+      "offset": 8659,
       "length": 45,
       "value": "\"Не хочу платить частями\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7741,
+      "offset": 8896,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7756,
+      "offset": 8911,
       "length": 11,
       "value": "\"pay.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7779,
+      "offset": 8934,
       "length": 18,
       "value": "\"Оплатить\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7915,
+      "offset": 9070,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7930,
+      "offset": 9085,
       "length": 16,
       "value": "\"pay.full.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 7958,
+      "offset": 9113,
       "length": 37,
       "value": "\"Оплатить полностью\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8162,
+      "offset": 9317,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8177,
+      "offset": 9332,
       "length": 26,
       "value": "\"payment.noCards.subtitle\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8215,
+      "offset": 9370,
       "length": 44,
       "value": "\"Выберите другой способ\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8352,
+      "offset": 9507,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8367,
+      "offset": 9522,
       "length": 23,
       "value": "\"payment.noCards.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8402,
+      "offset": 9557,
       "length": 37,
       "value": "\"Нет карт для оплаты\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8560,
+      "offset": 9715,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8575,
+      "offset": 9730,
       "length": 14,
       "value": "\"return.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 8601,
+      "offset": 9756,
       "length": 34,
       "value": "\"К способам оплаты\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 9086,
+      "offset": 10241,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 9101,
+      "offset": 10256,
       "length": 11,
       "value": "\"try.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 9124,
+      "offset": 10279,
       "length": 38,
       "value": "\"Попробовать ещё раз\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 9305,
+      "offset": 10460,
       "length": 13,
       "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 9320,
+      "offset": 10475,
       "length": 18,
       "value": "\"try.to.pay.title\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Strings.swift",
       "kind": "StringLiteral",
-      "offset": 9350,
+      "offset": 10505,
       "length": 34,
       "value": "\"Проводим оплату...\""
     },

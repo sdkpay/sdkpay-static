@@ -266,15 +266,23 @@ SWIFT_CLASS("_TtC7SPaySdk9SBPButton")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class NSString;
+
+SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
+@interface SBankInvoiceIdPaymentRequest : NSObject
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
   SEnvironmentProd = 0,
   SEnvironmentSandboxWithoutBankApp = 1,
   SEnvironmentSandboxRealBankApp = 2,
 };
 
-@class NSString;
 
-SWIFT_CLASS_NAMED("SFullPaymentRequest")
+SWIFT_CLASS_NAMED("SFullPaymentRequest") SWIFT_DEPRECATED_MSG("Структура устарела, используйте SBankInvoicePaymentRequest")
 @interface SFullPaymentRequest : NSObject
 - (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -308,8 +316,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 + (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(SPaymentTokenResponse * _Nonnull))completion;
 /// Метод для оплаты
 + (void)payWith:(SPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
++ (void)payWithOrderIdWith:(UIViewController * _Nonnull)viewController with:(SFullPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion SWIFT_DEPRECATED_MSG("Метод устарел, используйте payWithBankInvoiceId");
 /// Единый метод для оплаты
-+ (void)payWithOrderIdWith:(UIViewController * _Nonnull)viewController with:(SFullPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
++ (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Метод для завершения оплаты и закрытия окна SDK
 + (void)completePaymentWithPaymentState:(enum SPayState)paymentState completion:(void (^ _Nonnull)(void))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
@@ -672,15 +681,23 @@ SWIFT_CLASS("_TtC7SPaySdk9SBPButton")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class NSString;
+
+SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
+@interface SBankInvoiceIdPaymentRequest : NSObject
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
   SEnvironmentProd = 0,
   SEnvironmentSandboxWithoutBankApp = 1,
   SEnvironmentSandboxRealBankApp = 2,
 };
 
-@class NSString;
 
-SWIFT_CLASS_NAMED("SFullPaymentRequest")
+SWIFT_CLASS_NAMED("SFullPaymentRequest") SWIFT_DEPRECATED_MSG("Структура устарела, используйте SBankInvoicePaymentRequest")
 @interface SFullPaymentRequest : NSObject
 - (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -714,8 +731,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 + (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(SPaymentTokenResponse * _Nonnull))completion;
 /// Метод для оплаты
 + (void)payWith:(SPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
++ (void)payWithOrderIdWith:(UIViewController * _Nonnull)viewController with:(SFullPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion SWIFT_DEPRECATED_MSG("Метод устарел, используйте payWithBankInvoiceId");
 /// Единый метод для оплаты
-+ (void)payWithOrderIdWith:(UIViewController * _Nonnull)viewController with:(SFullPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
++ (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Метод для завершения оплаты и закрытия окна SDK
 + (void)completePaymentWithPaymentState:(enum SPayState)paymentState completion:(void (^ _Nonnull)(void))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
