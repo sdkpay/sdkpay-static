@@ -70,11 +70,11 @@ extension SPaySdk.SBShimmeringView {
 }
 @available(*, deprecated, message: "Структура устарела, используйте SBankInvoicePaymentRequest")
 @objc(SFullPaymentRequest) final public class SFullPaymentRequest : ObjectiveC.NSObject {
-  @objc public init(merchantLogin: Swift.String? = nil, orderId: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String)
+  @objc public init(merchantLogin: Swift.String? = nil, orderId: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String, apiKey: Swift.String? = nil)
   @objc deinit
 }
 @objc(SBankInvoiceIdPaymentRequest) final public class SBankInvoicePaymentRequest : ObjectiveC.NSObject {
-  @objc public init(merchantLogin: Swift.String? = nil, bankInvoiceId: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String)
+  @objc public init(merchantLogin: Swift.String? = nil, bankInvoiceId: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String, apiKey: Swift.String? = nil)
   @objc deinit
 }
 @objc @IBDesignable @_Concurrency.MainActor(unsafe) final public class SBPButton : UIKit.UIView {
@@ -98,7 +98,7 @@ extension SPaySdk.SBShimmeringView {
   }
 }
 @_inheritsConvenienceInitializers @objc final public class SPay : ObjectiveC.NSObject {
-  @objc public static func setup(apiKey: Swift.String, bnplPlan: Swift.Bool = false, environment: SPaySdk.SEnvironment = .prod, completion: SPaySdk.Action? = nil)
+  @objc public static func setup(apiKey: Swift.String? = nil, bnplPlan: Swift.Bool = false, environment: SPaySdk.SEnvironment = .prod, completion: SPaySdk.Action? = nil)
   @objc public static var isReadyForSPay: Swift.Bool {
     @objc get
   }
@@ -118,8 +118,8 @@ extension SPaySdk.SBShimmeringView {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc(SPaymentTokenRequest) final public class SPaymentTokenRequest : ObjectiveC.NSObject {
-  @objc convenience public init(merchantLogin: Swift.String?, orderId: Swift.String, redirectUri: Swift.String)
-  @objc convenience public init(redirectUri: Swift.String, merchantLogin: Swift.String?, amount: Swift.Int, currency: Swift.String, mobilePhone: Swift.String?, orderNumber: Swift.String, recurrentExipiry: Swift.String, recurrentFrequency: Swift.Int)
+  @objc convenience public init(merchantLogin: Swift.String?, orderId: Swift.String? = nil, bankInvoiceId: Swift.String? = nil, redirectUri: Swift.String)
+  @objc convenience public init(redirectUri: Swift.String, merchantLogin: Swift.String?, amount: Swift.Int, currency: Swift.String, mobilePhone: Swift.String?, orderNumber: Swift.String, recurrentExipiry: Swift.String, recurrentFrequency: Swift.Int, apiKey: Swift.String? = nil)
   @objc deinit
 }
 @objc(SPaymentTokenResponse) final public class SPaymentTokenResponse : ObjectiveC.NSObject {

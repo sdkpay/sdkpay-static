@@ -270,7 +270,7 @@ SWIFT_CLASS("_TtC7SPaySdk9SBPButton")
 
 SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
 @interface SBankInvoiceIdPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -284,7 +284,7 @@ typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
 
 SWIFT_CLASS_NAMED("SFullPaymentRequest") SWIFT_DEPRECATED_MSG("Структура устарела, используйте SBankInvoicePaymentRequest")
 @interface SFullPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -308,7 +308,7 @@ enum SPayState : NSInteger;
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
 @interface SPay : NSObject
 /// Ключ Kлиента для работы с сервисами платежного шлюза через SDK.
-+ (void)setupWithApiKey:(NSString * _Nonnull)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
++ (void)setupWithApiKey:(NSString * _Nullable)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
 /// Требуется задать LSApplicationQueriesSchemes в Info.plist
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
@@ -344,8 +344,8 @@ SWIFT_CLASS_NAMED("SPaymentRequest")
 
 SWIFT_CLASS_NAMED("SPaymentTokenRequest")
 @interface SPaymentTokenRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId redirectUri:(NSString * _Nonnull)redirectUri;
-- (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
+- (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency apiKey:(NSString * _Nullable)apiKey;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -685,7 +685,7 @@ SWIFT_CLASS("_TtC7SPaySdk9SBPButton")
 
 SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
 @interface SBankInvoiceIdPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -699,7 +699,7 @@ typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
 
 SWIFT_CLASS_NAMED("SFullPaymentRequest") SWIFT_DEPRECATED_MSG("Структура устарела, используйте SBankInvoicePaymentRequest")
 @interface SFullPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -723,7 +723,7 @@ enum SPayState : NSInteger;
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
 @interface SPay : NSObject
 /// Ключ Kлиента для работы с сервисами платежного шлюза через SDK.
-+ (void)setupWithApiKey:(NSString * _Nonnull)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
++ (void)setupWithApiKey:(NSString * _Nullable)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
 /// Требуется задать LSApplicationQueriesSchemes в Info.plist
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
@@ -759,8 +759,8 @@ SWIFT_CLASS_NAMED("SPaymentRequest")
 
 SWIFT_CLASS_NAMED("SPaymentTokenRequest")
 @interface SPaymentTokenRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId redirectUri:(NSString * _Nonnull)redirectUri;
-- (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
+- (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency apiKey:(NSString * _Nullable)apiKey;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
