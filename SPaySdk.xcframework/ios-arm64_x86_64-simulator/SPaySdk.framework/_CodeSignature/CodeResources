@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0Ix1arUP48pVsmOi9KhaPm7S1bs=
+		iB/RES14pOpvd+a5R8daLOsCL8w=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MA9dMv7lhxRhtgJTpy4umP73CtQ=
+		Cpfc0cnWmgfMLzZ4uHrHJaIWdVo=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y3qKsEkglrhlZUlO4W4nzSOG/g8=
+		Hn5sIynCo+ZglGoEYoBj9Y1two0=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MA9dMv7lhxRhtgJTpy4umP73CtQ=
+		Cpfc0cnWmgfMLzZ4uHrHJaIWdVo=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+rqf8mZ0zzKpGnucyiL//oU5Je8=
+		6D5OAHe4NSVEDh13TgDEdudlpAI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWSrVxa1MG+GZiat2JppN2mCvQGhknXbruYg46beqAY=
+			ZT4WOGIGiB1uwufZQG+hcaGb4PDZhQhtAohrGnlQ+rw=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vDkYUI7JWa82exxgYu56u8+/ZUyz9s0Ptg5u5qjDSIw=
+			Se5CmjMQSsZmtNHbG2bNSQtfU43DHdA9QzK9QoQwjSE=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWSrVxa1MG+GZiat2JppN2mCvQGhknXbruYg46beqAY=
+			ZT4WOGIGiB1uwufZQG+hcaGb4PDZhQhtAohrGnlQ+rw=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o+qcuUO+ZX1TkWIxID0woDz0IFsQdpoTCTMx0JaLLaA=
+			stP8jQCNNMaUVi3G2HEpml59QaP/fo88jGKSIs4eugc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
