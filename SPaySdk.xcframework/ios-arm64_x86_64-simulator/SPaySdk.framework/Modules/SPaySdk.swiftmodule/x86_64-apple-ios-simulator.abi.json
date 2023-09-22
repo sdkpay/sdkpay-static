@@ -8455,20 +8455,20 @@
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "BooleanLiteral",
       "offset": 1005,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1038,
+      "offset": 1039,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14427,
+      "offset": 14428,
       "length": 12,
       "value": "\"Custom log\""
     },
