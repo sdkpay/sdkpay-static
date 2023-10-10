@@ -49,6 +49,17 @@ public enum SBAxis {
 @objc public enum SPayState : Swift.Int {
   case success = 0
   case waiting
+  case cancel
+  case error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum SPayTokenState : Swift.Int {
+  case success = 0
+  case cancel
   case error
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
@@ -102,7 +113,7 @@ extension SPaySdk.SBShimmeringView {
   @objc public static var isReadyForSPay: Swift.Bool {
     @objc get
   }
-  @objc public static func getPaymentToken(with viewController: UIKit.UIViewController, with paymentTokenRequest: SPaySdk.SPaymentTokenRequest, completion: @escaping (SPaySdk.SPaymentTokenResponse) -> Swift.Void)
+  @objc public static func getPaymentToken(with viewController: UIKit.UIViewController, with paymentTokenRequest: SPaySdk.SPaymentTokenRequest, completion: @escaping (_ state: SPaySdk.SPayTokenState, _ info: SPaySdk.SPaymentTokenResponseModel) -> Swift.Void)
   @objc public static func pay(with paymentRequest: SPaySdk.SPaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String) -> Swift.Void)
   @available(*, deprecated, message: "Метод устарел, используйте payWithBankInvoiceId")
   @objc public static func payWithOrderId(with viewController: UIKit.UIViewController, with paymentRequest: SPaySdk.SFullPaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String) -> Swift.Void)
@@ -122,12 +133,12 @@ extension SPaySdk.SBShimmeringView {
   @objc convenience public init(redirectUri: Swift.String, merchantLogin: Swift.String?, amount: Swift.Int, currency: Swift.String, mobilePhone: Swift.String?, orderNumber: Swift.String, recurrentExipiry: Swift.String, recurrentFrequency: Swift.Int, apiKey: Swift.String? = nil)
   @objc deinit
 }
-@objc(SPaymentTokenResponse) final public class SPaymentTokenResponse : ObjectiveC.NSObject {
+@objc(SPaymentTokenResponseModel) final public class SPaymentTokenResponseModel : ObjectiveC.NSObject {
   @objc final public var paymentToken: Swift.String?
   @objc final public var paymentTokenId: Swift.String?
   @objc final public var tokenExpiration: Swift.Int
-  @objc final public var error: SPaySdk.SPError?
-  @objc public init(paymentToken: Swift.String? = nil, paymentTokenId: Swift.String? = nil, tokenExpiration: Swift.Int = 0, error: SPaySdk.SPError? = nil)
+  @objc final public var error: Swift.String?
+  @objc public init(paymentToken: Swift.String? = nil, paymentTokenId: Swift.String? = nil, tokenExpiration: Swift.Int = 0, error: Swift.String? = nil)
   @objc deinit
 }
 extension UIKit.UIImageView : SPaySdk.SBShimmeringView {
@@ -157,6 +168,9 @@ extension SPaySdk.SBAxis : Swift.Hashable {}
 extension SPaySdk.SPayState : Swift.Equatable {}
 extension SPaySdk.SPayState : Swift.Hashable {}
 extension SPaySdk.SPayState : Swift.RawRepresentable {}
+extension SPaySdk.SPayTokenState : Swift.Equatable {}
+extension SPaySdk.SPayTokenState : Swift.Hashable {}
+extension SPaySdk.SPayTokenState : Swift.RawRepresentable {}
 extension SPaySdk.SEnvironment : Swift.Equatable {}
 extension SPaySdk.SEnvironment : Swift.Hashable {}
 extension SPaySdk.SEnvironment : Swift.RawRepresentable {}

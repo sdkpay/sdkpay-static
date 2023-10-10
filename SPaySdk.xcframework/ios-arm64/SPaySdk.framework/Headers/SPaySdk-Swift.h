@@ -300,7 +300,8 @@ SWIFT_CLASS("_TtC7SPaySdk7SPError")
 
 @class UIViewController;
 @class SPaymentTokenRequest;
-@class SPaymentTokenResponse;
+enum SPayTokenState : NSInteger;
+@class SPaymentTokenResponseModel;
 @class SPaymentRequest;
 enum SPayState : NSInteger;
 @class NSURL;
@@ -313,7 +314,7 @@ SWIFT_CLASS("_TtC7SPaySdk4SPay")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
 /// Метод получения PaymentToken
-+ (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(SPaymentTokenResponse * _Nonnull))completion;
++ (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(enum SPayTokenState, SPaymentTokenResponseModel * _Nonnull))completion;
 /// Метод для оплаты
 + (void)payWith:(SPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 + (void)payWithOrderIdWith:(UIViewController * _Nonnull)viewController with:(SFullPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion SWIFT_DEPRECATED_MSG("Метод устарел, используйте payWithBankInvoiceId");
@@ -329,7 +330,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 typedef SWIFT_ENUM(NSInteger, SPayState, open) {
   SPayStateSuccess = 0,
   SPayStateWaiting = 1,
-  SPayStateError = 2,
+  SPayStateCancel = 2,
+  SPayStateError = 3,
+};
+
+typedef SWIFT_ENUM(NSInteger, SPayTokenState, open) {
+  SPayTokenStateSuccess = 0,
+  SPayTokenStateCancel = 1,
+  SPayTokenStateError = 2,
 };
 
 
@@ -351,8 +359,8 @@ SWIFT_CLASS_NAMED("SPaymentTokenRequest")
 @end
 
 
-SWIFT_CLASS_NAMED("SPaymentTokenResponse")
-@interface SPaymentTokenResponse : NSObject
+SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
+@interface SPaymentTokenResponseModel : NSObject
 /// Платежный токен. Отсутствует, если заполнен paymentTokenId
 @property (nonatomic, copy) NSString * _Nullable paymentToken;
 /// Идентификатор платежного токена. Отсутствует, если заполнен paymentToken
@@ -360,8 +368,8 @@ SWIFT_CLASS_NAMED("SPaymentTokenResponse")
 /// Срок действия платежного токена в формате UNIX (POSIX) времени
 @property (nonatomic) NSInteger tokenExpiration;
 /// Ошибка получения токена
-@property (nonatomic, strong) SPError * _Nullable error;
-- (nonnull instancetype)initWithPaymentToken:(NSString * _Nullable)paymentToken paymentTokenId:(NSString * _Nullable)paymentTokenId tokenExpiration:(NSInteger)tokenExpiration error:(SPError * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, copy) NSString * _Nullable error;
+- (nonnull instancetype)initWithPaymentToken:(NSString * _Nullable)paymentToken paymentTokenId:(NSString * _Nullable)paymentTokenId tokenExpiration:(NSInteger)tokenExpiration error:(NSString * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

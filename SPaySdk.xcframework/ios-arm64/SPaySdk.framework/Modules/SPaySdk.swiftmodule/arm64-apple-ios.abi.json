@@ -828,6 +828,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2062,6 +2072,47 @@
           },
           {
             "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayState.Type) -> SPaySdk.SPayState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPayState",
+                    "printedName": "SPaySdk.SPayState",
+                    "usr": "c:@M@SPaySdk@E@SPayState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SPaySdk.SPayState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayState",
+                        "printedName": "SPaySdk.SPayState",
+                        "usr": "c:@M@SPaySdk@E@SPayState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SPaySdk@E@SPayState@SPayStateCancel",
+            "mangledName": "$s7SPaySdk0A5StateO6cancelyA2CmF",
+            "moduleName": "SPaySdk",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
             "name": "error",
             "printedName": "error",
             "children": [
@@ -2099,7 +2150,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 2
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Constructor",
@@ -2177,6 +2228,255 @@
         "declKind": "Enum",
         "usr": "c:@M@SPaySdk@E@SPayState",
         "mangledName": "$s7SPaySdk0A5StateO",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPayTokenState",
+        "printedName": "SPayTokenState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayTokenState.Type) -> SPaySdk.SPayTokenState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPayTokenState",
+                    "printedName": "SPaySdk.SPayTokenState",
+                    "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SPaySdk.SPayTokenState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayTokenState",
+                        "printedName": "SPaySdk.SPayTokenState",
+                        "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SPaySdk@E@SPayTokenState@SPayTokenStateSuccess",
+            "mangledName": "$s7SPaySdk0A10TokenStateO7successyA2CmF",
+            "moduleName": "SPaySdk",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayTokenState.Type) -> SPaySdk.SPayTokenState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPayTokenState",
+                    "printedName": "SPaySdk.SPayTokenState",
+                    "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SPaySdk.SPayTokenState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayTokenState",
+                        "printedName": "SPaySdk.SPayTokenState",
+                        "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SPaySdk@E@SPayTokenState@SPayTokenStateCancel",
+            "mangledName": "$s7SPaySdk0A10TokenStateO6cancelyA2CmF",
+            "moduleName": "SPaySdk",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayTokenState.Type) -> SPaySdk.SPayTokenState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPayTokenState",
+                    "printedName": "SPaySdk.SPayTokenState",
+                    "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SPaySdk.SPayTokenState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayTokenState",
+                        "printedName": "SPaySdk.SPayTokenState",
+                        "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SPaySdk@E@SPayTokenState@SPayTokenStateError",
+            "mangledName": "$s7SPaySdk0A10TokenStateO5erroryA2CmF",
+            "moduleName": "SPaySdk",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SPaySdk.SPayTokenState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPayTokenState",
+                    "printedName": "SPaySdk.SPayTokenState",
+                    "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SPaySdk0A10TokenStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7SPaySdk0A10TokenStateO8rawValueACSgSi_tcfc",
+            "moduleName": "SPaySdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SPaySdk0A10TokenStateO8rawValueSivp",
+            "mangledName": "$s7SPaySdk0A10TokenStateO8rawValueSivp",
+            "moduleName": "SPaySdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SPaySdk0A10TokenStateO8rawValueSivg",
+                "mangledName": "$s7SPaySdk0A10TokenStateO8rawValueSivg",
+                "moduleName": "SPaySdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SPaySdk@E@SPayTokenState",
+        "mangledName": "$s7SPaySdk0A10TokenStateO",
         "moduleName": "SPaySdk",
         "declAttributes": [
           "AccessControl",
@@ -3857,7 +4157,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(SPaySdk.SPaymentTokenResponse) -> ()",
+                "printedName": "(SPaySdk.SPayTokenState, SPaySdk.SPaymentTokenResponseModel) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3866,16 +4166,29 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "SPaymentTokenResponse",
-                    "printedName": "SPaySdk.SPaymentTokenResponse",
-                    "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse"
+                    "name": "Tuple",
+                    "printedName": "(SPaySdk.SPayTokenState, SPaySdk.SPaymentTokenResponseModel)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayTokenState",
+                        "printedName": "SPaySdk.SPayTokenState",
+                        "usr": "c:@M@SPaySdk@E@SPayTokenState"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPaymentTokenResponseModel",
+                        "printedName": "SPaySdk.SPaymentTokenResponseModel",
+                        "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel"
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@SPaySdk@objc(cs)SPay(cm)getPaymentTokenWith:with:completion:",
-            "mangledName": "$s7SPaySdk0A0C15getPaymentToken4withAE10completionySo16UIViewControllerC_AA08SPaymentE7RequestCyAA0jE8ResponseCctFZ",
+            "mangledName": "$s7SPaySdk0A0C15getPaymentToken4withAE10completionySo16UIViewControllerC_AA08SPaymentE7RequestCyAA0aE5StateO_AA0jE13ResponseModelCtctFZ",
             "moduleName": "SPaySdk",
             "static": true,
             "objc_name": "getPaymentTokenWith:with:completion:",
@@ -4738,8 +5051,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SPaymentTokenResponse",
-        "printedName": "SPaymentTokenResponse",
+        "name": "SPaymentTokenResponseModel",
+        "printedName": "SPaymentTokenResponseModel",
         "children": [
           {
             "kind": "Var",
@@ -4762,8 +5075,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(py)paymentToken",
-            "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD0SSSgvp",
+            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(py)paymentToken",
+            "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD0SSSgvp",
             "moduleName": "SPaySdk",
             "declAttributes": [
               "HasInitialValue",
@@ -4796,8 +5109,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)paymentToken",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD0SSSgvg",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)paymentToken",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD0SSSgvg",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -4832,8 +5145,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)setPaymentToken:",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD0SSSgvs",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)setPaymentToken:",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD0SSSgvs",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -4854,8 +5167,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7SPaySdk21SPaymentTokenResponseC07paymentD0SSSgvM",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD0SSSgvM",
+                "usr": "s:7SPaySdk26SPaymentTokenResponseModelC07paymentD0SSSgvM",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD0SSSgvM",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -4886,8 +5199,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(py)paymentTokenId",
-            "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD2IdSSSgvp",
+            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(py)paymentTokenId",
+            "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD2IdSSSgvp",
             "moduleName": "SPaySdk",
             "declAttributes": [
               "HasInitialValue",
@@ -4920,8 +5233,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)paymentTokenId",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD2IdSSSgvg",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)paymentTokenId",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD2IdSSSgvg",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -4956,8 +5269,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)setPaymentTokenId:",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD2IdSSSgvs",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)setPaymentTokenId:",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD2IdSSSgvs",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -4978,8 +5291,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7SPaySdk21SPaymentTokenResponseC07paymentD2IdSSSgvM",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD2IdSSSgvM",
+                "usr": "s:7SPaySdk26SPaymentTokenResponseModelC07paymentD2IdSSSgvM",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD2IdSSSgvM",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -5002,8 +5315,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(py)tokenExpiration",
-            "mangledName": "$s7SPaySdk21SPaymentTokenResponseC15tokenExpirationSivp",
+            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(py)tokenExpiration",
+            "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC15tokenExpirationSivp",
             "moduleName": "SPaySdk",
             "declAttributes": [
               "Final",
@@ -5027,8 +5340,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)tokenExpiration",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC15tokenExpirationSivg",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)tokenExpiration",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC15tokenExpirationSivg",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -5055,8 +5368,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)setTokenExpiration:",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC15tokenExpirationSivs",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)setTokenExpiration:",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC15tokenExpirationSivs",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -5077,8 +5390,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7SPaySdk21SPaymentTokenResponseC15tokenExpirationSivM",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC15tokenExpirationSivM",
+                "usr": "s:7SPaySdk26SPaymentTokenResponseModelC15tokenExpirationSivM",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC15tokenExpirationSivM",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -5096,21 +5409,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SPaySdk.SPError?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SPError",
-                    "printedName": "SPaySdk.SPError",
-                    "usr": "c:@M@SPaySdk@objc(cs)SPError"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(py)error",
-            "mangledName": "$s7SPaySdk21SPaymentTokenResponseC5errorAA7SPErrorCSgvp",
+            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(py)error",
+            "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC5errorSSSgvp",
             "moduleName": "SPaySdk",
             "declAttributes": [
               "HasInitialValue",
@@ -5130,21 +5443,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SPaySdk.SPError?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "SPError",
-                        "printedName": "SPaySdk.SPError",
-                        "usr": "c:@M@SPaySdk@objc(cs)SPError"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)error",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC5errorAA7SPErrorCSgvg",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)error",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC5errorSSSgvg",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -5166,21 +5479,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SPaySdk.SPError?",
+                    "printedName": "Swift.String?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "SPError",
-                        "printedName": "SPaySdk.SPError",
-                        "usr": "c:@M@SPaySdk@objc(cs)SPError"
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)setError:",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC5errorAA7SPErrorCSgvs",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)setError:",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC5errorSSSgvs",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -5201,8 +5514,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7SPaySdk21SPaymentTokenResponseC5errorAA7SPErrorCSgvM",
-                "mangledName": "$s7SPaySdk21SPaymentTokenResponseC5errorAA7SPErrorCSgvM",
+                "usr": "s:7SPaySdk26SPaymentTokenResponseModelC5errorSSSgvM",
+                "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC5errorSSSgvM",
                 "moduleName": "SPaySdk",
                 "implicit": true,
                 "declAttributes": [
@@ -5219,9 +5532,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SPaymentTokenResponse",
-                "printedName": "SPaySdk.SPaymentTokenResponse",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse"
+                "name": "SPaymentTokenResponseModel",
+                "printedName": "SPaySdk.SPaymentTokenResponseModel",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel"
               },
               {
                 "kind": "TypeNominal",
@@ -5263,13 +5576,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SPaySdk.SPError?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SPError",
-                    "printedName": "SPaySdk.SPError",
-                    "usr": "c:@M@SPaySdk@objc(cs)SPError"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -5277,8 +5590,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)initWithPaymentToken:paymentTokenId:tokenExpiration:error:",
-            "mangledName": "$s7SPaySdk21SPaymentTokenResponseC07paymentD00fD2Id15tokenExpiration5errorACSSSg_AHSiAA7SPErrorCSgtcfc",
+            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)initWithPaymentToken:paymentTokenId:tokenExpiration:error:",
+            "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC07paymentD00gD2Id15tokenExpiration5errorACSSSg_AHSiAHtcfc",
             "moduleName": "SPaySdk",
             "objc_name": "initWithPaymentToken:paymentTokenId:tokenExpiration:error:",
             "declAttributes": [
@@ -5294,14 +5607,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SPaymentTokenResponse",
-                "printedName": "SPaySdk.SPaymentTokenResponse",
-                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse"
+                "name": "SPaymentTokenResponseModel",
+                "printedName": "SPaySdk.SPaymentTokenResponseModel",
+                "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse(im)init",
-            "mangledName": "$s7SPaySdk21SPaymentTokenResponseCACycfc",
+            "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel(im)init",
+            "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelCACycfc",
             "moduleName": "SPaySdk",
             "overriding": true,
             "implicit": true,
@@ -5315,10 +5628,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponse",
-        "mangledName": "$s7SPaySdk21SPaymentTokenResponseC",
+        "usr": "c:@M@SPaySdk@objc(cs)SPaymentTokenResponseModel",
+        "mangledName": "$s7SPaySdk26SPaymentTokenResponseModelC",
         "moduleName": "SPaySdk",
-        "objc_name": "SPaymentTokenResponse",
+        "objc_name": "SPaymentTokenResponseModel",
         "declAttributes": [
           "Final",
           "AccessControl",
@@ -6550,56 +6863,42 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2519,
+      "offset": 2504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2620,
+      "offset": 2605,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2703,
+      "offset": 2688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2833,
+      "offset": 4155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4249,
+      "offset": 4270,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4364,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6636,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6908,
+      "offset": 6542,
       "length": 4,
       "value": "true"
     },
@@ -7332,6 +7631,27 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/CompletionManager\/CompletionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/CompletionManager\/CompletionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1691,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/CompletionManager\/CompletionManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2703,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "FloatLiteral",
       "offset": 185,
@@ -7558,7 +7878,7 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/FeatureToggleService\/FeatureToggle.swift",
       "kind": "Array",
-      "offset": 723,
+      "offset": 738,
       "length": 2,
       "value": "[]"
     },
@@ -8053,20 +8373,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/LiveCircle\/LiveCircleSDKService.swift",
-      "kind": "StringLiteral",
-      "offset": 138,
-      "length": 22,
-      "value": "\"CloseSDKWithoutError\""
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/LiveCircle\/LiveCircleSDKService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3261,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Helpers\/UI\/Loader.swift",
       "kind": "FloatLiteral",
       "offset": 166,
@@ -8468,7 +8774,7 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 14428,
+      "offset": 14415,
       "length": 12,
       "value": "\"Custom log\""
     },
@@ -8664,16 +8970,16 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PartPayService\/PartPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1142,
+      "offset": 2406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PartPayService\/PartPayService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1577,
-      "length": 5,
-      "value": "false"
+      "kind": "Dictionary",
+      "offset": 2675,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PartPayVC\/PartPayVC.swift",
@@ -9147,9 +9453,16 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1401,
+      "offset": 1533,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2189,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
@@ -9169,27 +9482,83 @@
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 5,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
       "length": 5,
       "value": "2"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
       "kind": "IntegerLiteral",
-      "offset": 205,
+      "offset": 317,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
       "kind": "IntegerLiteral",
-      "offset": 216,
-      "length": 7,
+      "offset": 328,
+      "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SBPayState.swift",
       "kind": "IntegerLiteral",
-      "offset": 233,
+      "offset": 344,
       "length": 5,
       "value": "2"
     },
@@ -9419,24 +9788,17 @@
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1770,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 22,
+      "value": "\"CloseSDKWithoutError\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2436,
+      "offset": 1769,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SDKManager\/SDKManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5487,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SFullPaymentRequest.swift",
@@ -9595,16 +9957,16 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SPaymentTokenResponse.swift",
       "kind": "IntegerLiteral",
-      "offset": 920,
+      "offset": 929,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Public\/External structs\/SPaymentTokenResponse.swift",
       "kind": "StringLiteral",
-      "offset": 169,
-      "length": 21,
-      "value": "\"SPaySdk.SPaymentTokenResponse\""
+      "offset": 174,
+      "length": 26,
+      "value": "\"SPaySdk.SPaymentTokenResponseModel\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/LogVC\/SearchInputView.swift",
