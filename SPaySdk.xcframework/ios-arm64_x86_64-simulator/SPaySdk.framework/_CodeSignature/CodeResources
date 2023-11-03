@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CNdO7S13j91luuwGtdC5pG92Zp8=
+		IyQAbX8i4/Cy8vK7zePAy1d06Og=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VirnBrdBK1zuf7xcJlBbdzRMG+Y=
+		NvfKHihIWuGsJXJDNZh/W7PGSBM=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PTxlvfwmLj7kP5jKU8mcqYjqZ2w=
+		X+CNUNR8R7aqnnhAYBGrz+qW3t8=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VirnBrdBK1zuf7xcJlBbdzRMG+Y=
+		NvfKHihIWuGsJXJDNZh/W7PGSBM=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6rP+MIvTe6uRftSmkVurt2YDWTE=
+		taJ1+DMJZ0wn+ck/3jGuTIZJOGE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/oRYMp/86/4Kr6zJORsN79suOgiCoD17KZJyWmKskcY=
+			8Ktv4K4IqgfuSxF9xun4A3oHvO3vtg0ZCnwBswrjOfA=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BjfE+pMTAJGtCiZIiT8Az5AMhK0+/CldzWqrjnnFcbQ=
+			y0rce1krQZ4rrkSrg4t5YtYcsApUIA9WCO0al/kDPMA=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/oRYMp/86/4Kr6zJORsN79suOgiCoD17KZJyWmKskcY=
+			8Ktv4K4IqgfuSxF9xun4A3oHvO3vtg0ZCnwBswrjOfA=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KcdNqC5wlFsE7vG+zdnQX4XtICu5KQKE8VMQu9EuozA=
+			Jue52IFaID3vtmE+DAsvGHAlECFDIQGRdWb87l20mf0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
