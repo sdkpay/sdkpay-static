@@ -3,14 +3,17 @@
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SPaySdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFAudio
+import CommonCrypto
 import CoreLocation
 import CoreTelephony
 import CryptoKit
 import Darwin
 import Dispatch
 import Foundation
+import LocalAuthentication
 import Network
 @_exported import SPaySdk
+import Security
 import Swift
 import SystemConfiguration
 import UIKit.UIFont
@@ -34,6 +37,44 @@ public enum NetworkState : Swift.String, Swift.CaseIterable, Swift.Codable {
 extension Network.NWInterface.InterfaceType : Swift.CaseIterable {
   public static var allCases: [Network.NWInterface.InterfaceType]
   public typealias AllCases = [Network.NWInterface.InterfaceType]
+}
+public enum OtpTypeRequest {
+  case creteOTP
+  case confirmOTP
+  public static func == (a: SPaySdk.OtpTypeRequest, b: SPaySdk.OtpTypeRequest) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AuthRequestType {
+  case auth
+  case sessionId
+  public static func == (a: SPaySdk.AuthRequestType, b: SPaySdk.AuthRequestType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PaymentRequestType {
+  case paymentOrder
+  case paymentToken
+  public static func == (a: SPaySdk.PaymentRequestType, b: SPaySdk.PaymentRequestType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AnaliticTypeRequest {
+  case otp(type: SPaySdk.OtpTypeRequest)
+  case auth(type: SPaySdk.AuthRequestType)
+  case bnpl
+  case payment(type: SPaySdk.PaymentRequestType)
+  case remote
+  case listCards
+}
+@_hasMissingDesignatedInitializers final public class DefaultParsingErrorAnaliticManager {
+  @objc deinit
 }
 public enum SBAxis {
   case horizontal
@@ -79,13 +120,8 @@ extension SPaySdk.SBShimmeringView {
     get
   }
 }
-@available(*, deprecated, message: "Структура устарела, используйте SBankInvoicePaymentRequest")
-@objc(SFullPaymentRequest) final public class SFullPaymentRequest : ObjectiveC.NSObject {
-  @objc public init(merchantLogin: Swift.String? = nil, orderId: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String, apiKey: Swift.String? = nil)
-  @objc deinit
-}
 @objc(SBankInvoiceIdPaymentRequest) final public class SBankInvoicePaymentRequest : ObjectiveC.NSObject {
-  @objc public init(merchantLogin: Swift.String? = nil, bankInvoiceId: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String, apiKey: Swift.String? = nil)
+  @objc public init(merchantLogin: Swift.String? = nil, bankInvoiceId: Swift.String, orderNumber: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String, apiKey: Swift.String? = nil)
   @objc deinit
 }
 @objc @IBDesignable @_Concurrency.MainActor(unsafe) final public class SBPButton : UIKit.UIView {
@@ -115,8 +151,6 @@ extension SPaySdk.SBShimmeringView {
   }
   @objc public static func getPaymentToken(with viewController: UIKit.UIViewController, with paymentTokenRequest: SPaySdk.SPaymentTokenRequest, completion: @escaping (_ state: SPaySdk.SPayTokenState, _ info: SPaySdk.SPaymentTokenResponseModel) -> Swift.Void)
   @objc public static func pay(with paymentRequest: SPaySdk.SPaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String) -> Swift.Void)
-  @available(*, deprecated, message: "Метод устарел, используйте payWithBankInvoiceId")
-  @objc public static func payWithOrderId(with viewController: UIKit.UIViewController, with paymentRequest: SPaySdk.SFullPaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String) -> Swift.Void)
   @objc public static func payWithBankInvoiceId(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String) -> Swift.Void)
   @objc public static func completePayment(paymentState: SPaySdk.SPayState, completion: @escaping () -> Swift.Void)
   @objc public static func getAuthURL(_ url: Foundation.URL)
@@ -129,7 +163,7 @@ extension SPaySdk.SBShimmeringView {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc(SPaymentTokenRequest) final public class SPaymentTokenRequest : ObjectiveC.NSObject {
-  @objc convenience public init(merchantLogin: Swift.String?, orderId: Swift.String? = nil, bankInvoiceId: Swift.String? = nil, redirectUri: Swift.String)
+  @objc convenience public init(merchantLogin: Swift.String?, orderNumber: Swift.String, orderId: Swift.String? = nil, bankInvoiceId: Swift.String? = nil, redirectUri: Swift.String)
   @objc convenience public init(redirectUri: Swift.String, merchantLogin: Swift.String?, amount: Swift.Int, currency: Swift.String, mobilePhone: Swift.String?, orderNumber: Swift.String, recurrentExipiry: Swift.String, recurrentFrequency: Swift.Int, apiKey: Swift.String? = nil)
   @objc deinit
 }
@@ -163,6 +197,12 @@ extension UIKit.UITableView {
 extension SPaySdk.NetworkState : Swift.Equatable {}
 extension SPaySdk.NetworkState : Swift.Hashable {}
 extension SPaySdk.NetworkState : Swift.RawRepresentable {}
+extension SPaySdk.OtpTypeRequest : Swift.Equatable {}
+extension SPaySdk.OtpTypeRequest : Swift.Hashable {}
+extension SPaySdk.AuthRequestType : Swift.Equatable {}
+extension SPaySdk.AuthRequestType : Swift.Hashable {}
+extension SPaySdk.PaymentRequestType : Swift.Equatable {}
+extension SPaySdk.PaymentRequestType : Swift.Hashable {}
 extension SPaySdk.SBAxis : Swift.Equatable {}
 extension SPaySdk.SBAxis : Swift.Hashable {}
 extension SPaySdk.SPayState : Swift.Equatable {}

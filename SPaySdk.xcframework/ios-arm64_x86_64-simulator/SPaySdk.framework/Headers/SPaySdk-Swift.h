@@ -270,7 +270,7 @@ SWIFT_CLASS("_TtC7SPaySdk9SBPButton")
 
 SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
 @interface SBankInvoiceIdPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId orderNumber:(NSString * _Nonnull)orderNumber language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -280,14 +280,6 @@ typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
   SEnvironmentSandboxWithoutBankApp = 1,
   SEnvironmentSandboxRealBankApp = 2,
 };
-
-
-SWIFT_CLASS_NAMED("SFullPaymentRequest") SWIFT_DEPRECATED_MSG("Структура устарела, используйте SBankInvoicePaymentRequest")
-@interface SFullPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 /// Class for validation SDK errors
@@ -317,7 +309,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 + (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(enum SPayTokenState, SPaymentTokenResponseModel * _Nonnull))completion;
 /// Метод для оплаты
 + (void)payWith:(SPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
-+ (void)payWithOrderIdWith:(UIViewController * _Nonnull)viewController with:(SFullPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion SWIFT_DEPRECATED_MSG("Метод устарел, используйте payWithBankInvoiceId");
 /// Единый метод для оплаты
 + (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Метод для завершения оплаты и закрытия окна SDK
@@ -352,7 +343,7 @@ SWIFT_CLASS_NAMED("SPaymentRequest")
 
 SWIFT_CLASS_NAMED("SPaymentTokenRequest")
 @interface SPaymentTokenRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderNumber:(NSString * _Nonnull)orderNumber orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
 - (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency apiKey:(NSString * _Nullable)apiKey;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -373,6 +364,8 @@ SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
@@ -693,7 +686,7 @@ SWIFT_CLASS("_TtC7SPaySdk9SBPButton")
 
 SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
 @interface SBankInvoiceIdPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId orderNumber:(NSString * _Nonnull)orderNumber language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -703,14 +696,6 @@ typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
   SEnvironmentSandboxWithoutBankApp = 1,
   SEnvironmentSandboxRealBankApp = 2,
 };
-
-
-SWIFT_CLASS_NAMED("SFullPaymentRequest") SWIFT_DEPRECATED_MSG("Структура устарела, используйте SBankInvoicePaymentRequest")
-@interface SFullPaymentRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nonnull)orderId language:(NSString * _Nullable)language redirectUri:(NSString * _Nonnull)redirectUri apiKey:(NSString * _Nullable)apiKey OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 /// Class for validation SDK errors
@@ -740,7 +725,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 + (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(enum SPayTokenState, SPaymentTokenResponseModel * _Nonnull))completion;
 /// Метод для оплаты
 + (void)payWith:(SPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
-+ (void)payWithOrderIdWith:(UIViewController * _Nonnull)viewController with:(SFullPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion SWIFT_DEPRECATED_MSG("Метод устарел, используйте payWithBankInvoiceId");
 /// Единый метод для оплаты
 + (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Метод для завершения оплаты и закрытия окна SDK
@@ -775,7 +759,7 @@ SWIFT_CLASS_NAMED("SPaymentRequest")
 
 SWIFT_CLASS_NAMED("SPaymentTokenRequest")
 @interface SPaymentTokenRequest : NSObject
-- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderNumber:(NSString * _Nonnull)orderNumber orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
 - (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency apiKey:(NSString * _Nullable)apiKey;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -796,6 +780,8 @@ SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
