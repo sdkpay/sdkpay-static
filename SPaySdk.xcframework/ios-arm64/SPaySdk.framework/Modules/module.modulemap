@@ -1,7 +1,7 @@
 framework module SPaySdk {
   umbrella header "SPaySdk.h"
-
   export *
+
   module * { export * }
 }
 
