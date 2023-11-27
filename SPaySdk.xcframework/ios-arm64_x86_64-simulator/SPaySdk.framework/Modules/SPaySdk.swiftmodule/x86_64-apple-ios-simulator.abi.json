@@ -17472,49 +17472,49 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "StringLiteral",
-      "offset": 3135,
+      "offset": 3320,
       "length": 21,
       "value": "\"yyyy-MM-dd_HH-mm-ss\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "StringLiteral",
-      "offset": 3839,
+      "offset": 4079,
       "length": 50,
       "value": "\"🏦 Found bank apps: \n\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "StringLiteral",
-      "offset": 3888,
+      "offset": 4128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "StringLiteral",
-      "offset": 4117,
+      "offset": 4357,
       "length": 42,
       "value": "\"value: \""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "StringLiteral",
-      "offset": 4158,
+      "offset": 4398,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6082,
+      "offset": 6398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6926,
+      "offset": 7352,
       "length": 5,
       "value": "false"
     },
