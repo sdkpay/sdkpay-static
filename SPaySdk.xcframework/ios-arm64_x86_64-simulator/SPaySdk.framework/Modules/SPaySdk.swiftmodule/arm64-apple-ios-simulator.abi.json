@@ -8127,14 +8127,14 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "StringLiteral",
-      "offset": 1752,
+      "offset": 1706,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2518,
+      "offset": 2585,
       "length": 4,
       "value": "true"
     },

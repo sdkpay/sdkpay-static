@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5gIVNqQRhaftt4dVUJXdvDwxHLc=
+		5RU8A+jzhM89WzgjG/rEjd2rR/4=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gWQ31q8ocGLyWV0pFua5JIrxtpc=
+		kMHRuNMPY/R0SXrvbFwi7nIHHHM=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mt17/FH2fJEb1DaabIqaRUdJI7g=
+		8EB85VsVmA0Xaw/TsP5MmlaR0Ts=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gWQ31q8ocGLyWV0pFua5JIrxtpc=
+		kMHRuNMPY/R0SXrvbFwi7nIHHHM=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VJQdJXpZJaz2ps5ATJTloFZVDz4=
+		faoB9kOqKWW78o+zcWhpxX23n6Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -138,7 +138,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o/ySzYITYmyyqFLjrQfJ8OOhQLVvqNa0LLwIwV9OTDI=
+			dwdtdcto627e8+TxR39Be1Ox3WGwi+dLiK5mEokOOV4=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wcL2m5+Mo0NyaYk2o/N2ZW2d0SNLUrJ+fEojf1upQns=
+			+N8EbeNRINivCOXFCmzy7DN1tStQtnd3yalgZHLbhqw=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o/ySzYITYmyyqFLjrQfJ8OOhQLVvqNa0LLwIwV9OTDI=
+			dwdtdcto627e8+TxR39Be1Ox3WGwi+dLiK5mEokOOV4=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c8wR/aJonL9IUtNL6UBODVfTTnqrc9VQvSFjH9mmxNY=
+			W6yq6Ic01AuYOtBKtZmqgP9hM1Qzly+W48vhM/Ff/ys=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
