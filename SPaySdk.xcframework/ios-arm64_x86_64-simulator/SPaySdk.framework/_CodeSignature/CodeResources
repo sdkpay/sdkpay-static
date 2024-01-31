@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YJ1F5TYklzWJdfUP9ZIZUHDnoFQ=
+		FXU3M/tTY+2TZWHz8W8dPlIZ1Hw=
 		</data>
 		<key>LightSplash.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0P9OcxRNLnVVBTCJjBSBZzbm/bU=
+		4/OCmB+bufpadWfDxNaOEz07u40=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0P9OcxRNLnVVBTCJjBSBZzbm/bU=
+		4/OCmB+bufpadWfDxNaOEz07u40=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -175,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUNLYfuWqCZTNCyPIaIIq+7rG7NJQl6SPV8wBFPWt1U=
+			TGLD1d5k2KPbyy85YUNNIoM2+MMyWQAYz32w3XOEbfo=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUNLYfuWqCZTNCyPIaIIq+7rG7NJQl6SPV8wBFPWt1U=
+			TGLD1d5k2KPbyy85YUNNIoM2+MMyWQAYz32w3XOEbfo=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
