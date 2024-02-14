@@ -302,6 +302,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
+
+SWIFT_CLASS_NAMED("SBHelperConfig")
+@interface SConfig : NSObject
+- (nonnull instancetype)initWithSbp:(BOOL)sbp creditCard:(BOOL)creditCard debitCard:(BOOL)debitCard OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSCoder;
 
 IB_DESIGNABLE
@@ -348,7 +357,7 @@ enum SPayState : NSInteger;
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
 @interface SPay : NSObject
 /// Ключ Kлиента для работы с сервисами платежного шлюза через SDK.
-+ (void)setupWithApiKey:(NSString * _Nullable)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
++ (void)setupWithBnplPlan:(BOOL)bnplPlan helpers:(BOOL)helpers helperConfig:(SConfig * _Nonnull)helperConfig environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
 /// Требуется задать LSApplicationQueriesSchemes в Info.plist
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
@@ -411,6 +420,10 @@ SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
+
+
 
 
 
