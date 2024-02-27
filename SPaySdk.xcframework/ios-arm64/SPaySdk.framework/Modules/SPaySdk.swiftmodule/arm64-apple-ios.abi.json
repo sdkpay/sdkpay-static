@@ -8863,84 +8863,84 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1074,
+      "offset": 827,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1318,
+      "offset": 1071,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1638,
+      "offset": 1391,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1777,
+      "offset": 1530,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2121,
+      "offset": 1874,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "StringLiteral",
-      "offset": 2669,
+      "offset": 2422,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2985,
+      "offset": 2738,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3022,
+      "offset": 2775,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3260,
+      "offset": 3034,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3290,
+      "offset": 3064,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3504,
+      "offset": 3220,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AlertVC\/AlertVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3534,
+      "offset": 3250,
       "length": 3,
       "value": "180"
     },
@@ -11502,182 +11502,182 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "StringLiteral",
-      "offset": 1294,
+      "offset": 1385,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2597,
+      "offset": 2688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "FloatLiteral",
-      "offset": 2932,
+      "offset": 3023,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 3019,
+      "offset": 3110,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3297,
+      "offset": 3388,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "BooleanLiteral",
-      "offset": 4046,
+      "offset": 4137,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 4913,
+      "offset": 5004,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5105,
+      "offset": 5196,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5171,
+      "offset": 5262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5796,
+      "offset": 5887,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "BooleanLiteral",
-      "offset": 5827,
+      "offset": 5918,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6328,
+      "offset": 6419,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6367,
+      "offset": 6458,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6405,
+      "offset": 6496,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6609,
+      "offset": 6700,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "FloatLiteral",
-      "offset": 6731,
+      "offset": 6822,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "FloatLiteral",
-      "offset": 6756,
+      "offset": 6847,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6798,
+      "offset": 6889,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 6836,
+      "offset": 6927,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "FloatLiteral",
-      "offset": 7108,
+      "offset": 7199,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "FloatLiteral",
-      "offset": 7133,
+      "offset": 7224,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7140,
+      "offset": 7231,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7179,
+      "offset": 7270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7217,
+      "offset": 7308,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7314,
+      "offset": 7405,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/ContentNC\/ContentNC.swift",
       "kind": "IntegerLiteral",
-      "offset": 7538,
+      "offset": 7629,
       "length": 1,
       "value": "1"
     },
@@ -12935,20 +12935,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "Array",
-      "offset": 2441,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "Array",
-      "offset": 2479,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/NetworkService\/Targets\/Auth\/Model\/ExchangeTokenModel.swift",
       "kind": "StringLiteral",
       "offset": 911,
@@ -14198,41 +14184,41 @@
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/KeychainStorage\/KeychainStorage.swift",
       "kind": "StringLiteral",
       "offset": 769,
-      "length": 22,
-      "value": "\"ru.sid.iphone.shared\""
+      "length": 33,
+      "value": "\"ru.sberbank.onlineiphone.shared\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/KeychainStorage\/KeychainStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 2834,
+      "offset": 2845,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/KeychainStorage\/KeychainStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3109,
+      "offset": 3120,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/KeychainStorage\/KeychainStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3182,
+      "offset": 3193,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/KeychainStorage\/KeychainStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3404,
+      "offset": 3415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/KeychainStorage\/KeychainStorage.swift",
       "kind": "BooleanLiteral",
-      "offset": 4079,
+      "offset": 4090,
       "length": 4,
       "value": "true"
     },
