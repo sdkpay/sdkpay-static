@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		CoTO8csw2VxBDRuFwIr+Pqvee/I=
+		FlvaUDMDtCJVeVIFIdzFAY6AzFo=
 		</data>
 		<key>DarkSplash.json</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0HYRUoor2JSY5UNI9x/XL00nSlk=
+		+xu0VV3yuGNEMOg7spukQVP1vGM=
 		</data>
 		<key>LightSplash.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UKHW0odwOJ9NvfBYU/iUtKeGbvI=
+		zVWlbfGELiIIDqUCpbwZgRpywV8=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UKHW0odwOJ9NvfBYU/iUtKeGbvI=
+		zVWlbfGELiIIDqUCpbwZgRpywV8=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VvMnFnpVY+aQMnrnKIKShf7U+Tyg8uXVfFJIvZEIy1E=
+			QWS1ycFtESrYmyQ647qw7wvJX88ddazVvx2vXpRcCYM=
 			</data>
 		</dict>
 		<key>DarkSplash.json</key>
@@ -175,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7IKa1XB2KR3inf3gj5ttXV26tRYEgRg0UR7rqx60mQ=
+			2cGAmXWLZRPYtP+xnvkA/oWbBTV1bpnjdTDPrcY5FBM=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7IKa1XB2KR3inf3gj5ttXV26tRYEgRg0UR7rqx60mQ=
+			2cGAmXWLZRPYtP+xnvkA/oWbBTV1bpnjdTDPrcY5FBM=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
