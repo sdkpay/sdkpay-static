@@ -16,7 +16,6 @@ import Network
 @_exported import SPaySdk
 import Security
 import Swift
-import SwiftUI
 import SystemConfiguration
 import UIKit.UIFont
 import UIKit

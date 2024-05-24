@@ -7163,20 +7163,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SPaySdk"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SPaySdk"
-      },
-      {
-        "kind": "Import",
         "name": "DeveloperToolsSupport",
         "printedName": "DeveloperToolsSupport",
         "declKind": "Import",
@@ -21707,210 +21693,210 @@
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 633,
+      "offset": 561,
       "length": 15,
       "value": "\"Black_primory\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 783,
+      "offset": 733,
       "length": 15,
       "value": "\"Gray_disabled\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 933,
+      "offset": 905,
       "length": 15,
       "value": "\"Gray_inactive\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 1075,
       "length": 14,
       "value": "\"Gray_primary\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1246,
       "length": 15,
       "value": "\"Green_primary\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1384,
+      "offset": 1422,
       "length": 17,
       "value": "\"Green_secondary\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1523,
+      "offset": 1583,
       "length": 8,
       "value": "\"Orange\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1733,
       "length": 7,
       "value": "\"White\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1883,
+      "offset": 2023,
       "length": 7,
       "value": "\"Arrow\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2170,
       "length": 6,
       "value": "\"Cart\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2153,
+      "offset": 2337,
       "length": 17,
       "value": "\"Check_agreement\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2326,
+      "offset": 2532,
       "length": 26,
       "value": "\"Check_agreement_selected\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2493,
+      "offset": 2721,
       "length": 18,
       "value": "\"Check_deselected\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2648,
+      "offset": 2898,
       "length": 16,
       "value": "\"Check_selected\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2788,
+      "offset": 3060,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2919,
+      "offset": 3213,
       "length": 8,
       "value": "\"Female\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3049,
+      "offset": 3365,
       "length": 8,
       "value": "\"Loader\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3186,
+      "offset": 3524,
       "length": 12,
       "value": "\"Logo_clear\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3325,
+      "offset": 3685,
       "length": 11,
       "value": "\"Logo_main\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3454,
+      "offset": 3836,
       "length": 6,
       "value": "\"Male\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3584,
+      "offset": 3988,
       "length": 9,
       "value": "\"Neutral\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3713,
+      "offset": 4139,
       "length": 7,
       "value": "\"Stick\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3848,
+      "offset": 4296,
       "length": 11,
       "value": "\"StockCard\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3983,
+      "offset": 4453,
       "length": 9,
       "value": "\"Success\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4116,
+      "offset": 4608,
       "length": 9,
       "value": "\"Waiting\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4249,
+      "offset": 4763,
       "length": 9,
       "value": "\"Warning\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4393,
+      "offset": 4929,
       "length": 15,
       "value": "\"Warning_alert\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4526,
+      "offset": 5084,
       "length": 6,
       "value": "\"part\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4663,
+      "offset": 5243,
       "length": 13,
       "value": "\"part_active\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4796,
+      "offset": 5398,
       "length": 7,
       "value": "\"share\""
     }
