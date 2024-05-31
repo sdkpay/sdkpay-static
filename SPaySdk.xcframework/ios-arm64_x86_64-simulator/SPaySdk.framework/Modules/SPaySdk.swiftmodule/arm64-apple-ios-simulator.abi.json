@@ -8621,77 +8621,91 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 2074,
+      "offset": 2109,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 2148,
+      "offset": 2183,
       "length": 23,
       "value": "\"SPaySdk.DefaultAnalyticsManager\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 4247,
+      "offset": 4282,
       "length": 6,
       "value": "\"None\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 4514,
+      "offset": 4549,
       "length": 5,
       "value": "\"200\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 4800,
+      "offset": 4835,
       "length": 5,
       "value": "\"200\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "Array",
-      "offset": 4913,
+      "offset": 4948,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5010,
+      "offset": 5045,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 6473,
+      "offset": 5144,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5300,
+      "length": 6,
+      "value": "\"info\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6806,
       "length": 24,
       "value": "\"https:\/\/www.google.ru\/\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 6569,
+      "offset": 6902,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 6620,
+      "offset": 6953,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 6688,
+      "offset": 7021,
       "length": 7,
       "value": "\"getIp\""
     },
@@ -9054,36 +9068,29 @@
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 7959,
-      "length": 9,
-      "value": "\"payBNPL\""
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11711,
+      "offset": 11686,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 13605,
+      "offset": 13580,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16559,
+      "offset": 16534,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 18127,
+      "offset": 18102,
       "length": 4,
       "value": "true"
     },
@@ -19177,91 +19184,98 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 3080,
+      "offset": 307,
+      "length": 6,
+      "value": "\"BNPL\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 3133,
       "length": 5,
       "value": "\"Pay\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5020,
+      "offset": 5073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5072,
+      "offset": 5125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6496,
+      "offset": 6549,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6783,
+      "offset": 6836,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6933,
+      "offset": 6986,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 13635,
+      "offset": 13688,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 14123,
+      "offset": 14176,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 14200,
+      "offset": 14253,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14808,
+      "offset": 14861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 15429,
+      "offset": 15482,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 15913,
+      "offset": 15966,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 438,
+      "offset": 491,
       "length": 22,
       "value": "\"SPaySdk.PaymentModulePresenter\""
     },
@@ -19912,42 +19926,42 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PersonalMetricsService\/PersonalMetricsService.swift",
       "kind": "StringLiteral",
-      "offset": 4733,
+      "offset": 4784,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PersonalMetricsService\/PersonalMetricsService.swift",
       "kind": "StringLiteral",
-      "offset": 4745,
+      "offset": 4796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PersonalMetricsService\/PersonalMetricsService.swift",
       "kind": "StringLiteral",
-      "offset": 4908,
+      "offset": 4959,
       "length": 9,
       "value": "\"TestKey\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PersonalMetricsService\/PersonalMetricsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4948,
+      "offset": 4999,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PersonalMetricsService\/PersonalMetricsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4987,
+      "offset": 5038,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/PersonalMetricsService\/PersonalMetricsService.swift",
       "kind": "Array",
-      "offset": 5283,
+      "offset": 5334,
       "length": 2,
       "value": "[]"
     },
