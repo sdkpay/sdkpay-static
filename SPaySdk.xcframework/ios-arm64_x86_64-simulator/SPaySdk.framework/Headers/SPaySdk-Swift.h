@@ -302,6 +302,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
+
+SWIFT_CLASS_NAMED("SBHelperConfig")
+@interface SConfig : NSObject
+- (nonnull instancetype)initWithSbp:(BOOL)sbp creditCard:(BOOL)creditCard debitCard:(BOOL)debitCard OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSCoder;
 
 IB_DESIGNABLE
@@ -338,30 +347,26 @@ SWIFT_CLASS("_TtC7SPaySdk7SPError")
 @end
 
 @class UIViewController;
-@class SPaymentTokenRequest;
-enum SPayTokenState : NSInteger;
-@class SPaymentTokenResponseModel;
-@class SPaymentRequest;
 enum SPayState : NSInteger;
 @class NSURL;
 
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
 @interface SPay : NSObject
 /// Ключ Kлиента для работы с сервисами платежного шлюза через SDK.
-+ (void)setupWithApiKey:(NSString * _Nullable)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
-/// Требуется задать LSApplicationQueriesSchemes в Info.plist
++ (void)setupWithBnplPlan:(BOOL)bnplPlan resultViewNeeded:(BOOL)resultViewNeeded helpers:(BOOL)helpers needLogs:(BOOL)needLogs helperConfig:(SConfig * _Nonnull)helperConfig environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(SPError * _Nullable))completion;
+/// Метод проверки доступности сервисов оплаты
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
-/// Метод получения PaymentToken
-+ (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(enum SPayTokenState, SPaymentTokenResponseModel * _Nonnull))completion;
-/// Метод для оплаты
-+ (void)payWith:(SPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Единый метод для оплаты
 + (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
-/// Метод для завершения оплаты и закрытия окна SDK
-+ (void)completePaymentWithPaymentState:(enum SPayState)paymentState completion:(void (^ _Nonnull)(void))completion;
+/// Метод оплаты только для оплаты частями
++ (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
+/// Метод оплаты только для оплаты частями
++ (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
 + (void)getAuthURL:(NSURL * _Nonnull)url;
+/// Метод для передачи
++ (BOOL)setBankScheme:(NSURL * _Nonnull)url error:(NSError * _Nullable * _Nullable)error;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -411,6 +416,8 @@ SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
@@ -765,6 +772,15 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
+
+SWIFT_CLASS_NAMED("SBHelperConfig")
+@interface SConfig : NSObject
+- (nonnull instancetype)initWithSbp:(BOOL)sbp creditCard:(BOOL)creditCard debitCard:(BOOL)debitCard OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSCoder;
 
 IB_DESIGNABLE
@@ -801,30 +817,26 @@ SWIFT_CLASS("_TtC7SPaySdk7SPError")
 @end
 
 @class UIViewController;
-@class SPaymentTokenRequest;
-enum SPayTokenState : NSInteger;
-@class SPaymentTokenResponseModel;
-@class SPaymentRequest;
 enum SPayState : NSInteger;
 @class NSURL;
 
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
 @interface SPay : NSObject
 /// Ключ Kлиента для работы с сервисами платежного шлюза через SDK.
-+ (void)setupWithApiKey:(NSString * _Nullable)apiKey bnplPlan:(BOOL)bnplPlan environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(void))completion;
-/// Требуется задать LSApplicationQueriesSchemes в Info.plist
++ (void)setupWithBnplPlan:(BOOL)bnplPlan resultViewNeeded:(BOOL)resultViewNeeded helpers:(BOOL)helpers needLogs:(BOOL)needLogs helperConfig:(SConfig * _Nonnull)helperConfig environment:(enum SEnvironment)environment completion:(void (^ _Nullable)(SPError * _Nullable))completion;
+/// Метод проверки доступности сервисов оплаты
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
-/// Метод получения PaymentToken
-+ (void)getPaymentTokenWith:(UIViewController * _Nonnull)viewController with:(SPaymentTokenRequest * _Nonnull)paymentTokenRequest completion:(void (^ _Nonnull)(enum SPayTokenState, SPaymentTokenResponseModel * _Nonnull))completion;
-/// Метод для оплаты
-+ (void)payWith:(SPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Единый метод для оплаты
 + (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
-/// Метод для завершения оплаты и закрытия окна SDK
-+ (void)completePaymentWithPaymentState:(enum SPayState)paymentState completion:(void (^ _Nonnull)(void))completion;
+/// Метод оплаты только для оплаты частями
++ (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
+/// Метод оплаты только для оплаты частями
++ (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
 + (void)getAuthURL:(NSURL * _Nonnull)url;
+/// Метод для передачи
++ (BOOL)setBankScheme:(NSURL * _Nonnull)url error:(NSError * _Nullable * _Nullable)error;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -874,6 +886,8 @@ SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
