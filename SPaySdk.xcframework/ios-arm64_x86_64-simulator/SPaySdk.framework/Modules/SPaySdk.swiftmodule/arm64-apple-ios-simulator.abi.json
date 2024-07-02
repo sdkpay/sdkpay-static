@@ -1165,6 +1165,26 @@
       },
       {
         "kind": "Import",
+        "name": "ClickstreamAnalytics",
+        "printedName": "ClickstreamAnalytics",
+        "declKind": "Import",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1462,26 +1482,6 @@
         "moduleName": "SPaySdk",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SPaySdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DynatraceStatic",
-        "printedName": "DynatraceStatic",
-        "declKind": "Import",
-        "moduleName": "SPaySdk",
-        "declAttributes": [
-          "ImplementationOnly"
         ]
       },
       {
@@ -5058,6 +5058,39 @@
             "fixedbinaryorder": 2
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SPaySdk.SEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SEnvironment",
+                    "printedName": "SPaySdk.SEnvironment",
+                    "usr": "c:@M@SPaySdk@E@SEnvironment"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SPaySdk12SEnvironmentO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7SPaySdk12SEnvironmentO8rawValueACSgSi_tcfc",
+            "moduleName": "SPaySdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -5095,39 +5128,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SPaySdk.SEnvironment?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SEnvironment",
-                    "printedName": "SPaySdk.SEnvironment",
-                    "usr": "c:@M@SPaySdk@E@SEnvironment"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7SPaySdk12SEnvironmentO8rawValueACSgSi_tcfc",
-            "mangledName": "$s7SPaySdk12SEnvironmentO8rawValueACSgSi_tcfc",
-            "moduleName": "SPaySdk",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -8242,6 +8242,330 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Optional",
+        "printedName": "Optional",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isNil",
+            "printedName": "isNil",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sq7SPaySdkE5isNilSbvp",
+            "mangledName": "$sSq7SPaySdkE5isNilSbvp",
+            "moduleName": "SPaySdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sq7SPaySdkE5isNilSbvg",
+                "mangledName": "$sSq7SPaySdkE5isNilSbvg",
+                "moduleName": "SPaySdk",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Wrapped>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:Sq",
+        "mangledName": "$sSq",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Wrapped>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EncodableWithConfiguration",
+            "printedName": "EncodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "EncodingConfiguration",
+                "printedName": "EncodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.EncodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26EncodableWithConfigurationP",
+            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableWithConfiguration",
+            "printedName": "DecodableWithConfiguration",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DecodingConfiguration",
+                "printedName": "DecodingConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.DecodingConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation26DecodableWithConfigurationP",
+            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Gesture",
+            "printedName": "Gesture",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Value"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI7GestureP",
+            "mangledName": "$s7SwiftUI7GestureP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TableRowContent",
+            "printedName": "TableRowContent",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "TableRowValue",
+                "printedName": "TableRowValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.TableRowValue"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "TableRowBody",
+                "printedName": "TableRowBody",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI15TableRowContentP",
+            "mangledName": "$s7SwiftUI15TableRowContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Commands",
+            "printedName": "Commands",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI8CommandsP",
+            "mangledName": "$s7SwiftUI8CommandsP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ToolbarContent",
+            "printedName": "ToolbarContent",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI14ToolbarContentP",
+            "mangledName": "$s7SwiftUI14ToolbarContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomizableToolbarContent",
+            "printedName": "CustomizableToolbarContent",
+            "usr": "s:7SwiftUI26CustomizableToolbarContentP",
+            "mangledName": "$s7SwiftUI26CustomizableToolbarContentP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -8711,10 +9035,31 @@
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/AnalyticsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/AnalyticsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2169,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/AnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 1803,
+      "offset": 2250,
       "length": 12,
       "value": "\"SDKVersion\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/AnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 23,
+      "value": "\"SPaySdk.DefaultAnalyticsService\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
@@ -11671,6 +12016,34 @@
       "value": "\"SPaySdk.CheckView\""
     },
     {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 92,
+      "value": "\"https:\/\/iftmpclickstream.testonline.sberbank.ru:8097\/metrics\/ecosystem\/sdk-sber-pay-in-app\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 66,
+      "value": "\"d12d860723095964741a09ba379620db1ac48784f35133ff6ca5db714311d250\""
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
+      "kind": "Dictionary",
+      "offset": 1704,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2215,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Collection+Extension.swift",
       "kind": "StringLiteral",
       "offset": 343,
@@ -13344,62 +13717,6 @@
       "value": "\"SPaySdk.DotsAnimatedView\""
     },
     {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "StringLiteral",
-      "offset": 269,
-      "length": 71,
-      "value": "\"https:\/\/vito.sbrf.ru:443\/mbeacon\/7e4bdb68-cd47-4ecc-b649-69eb5cd44c91\""
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "StringLiteral",
-      "offset": 365,
-      "length": 38,
-      "value": "\"63bb5224-894a-41f6-a558-d4ab8e62e21a\""
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "Dictionary",
-      "offset": 1349,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "StringLiteral",
-      "offset": 1926,
-      "length": 5,
-      "value": "\"OFF\""
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1980,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2029,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "Array",
-      "offset": 2076,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "Array",
-      "offset": 2114,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/EventBuilder.swift",
       "kind": "StringLiteral",
       "offset": 839,
@@ -13577,14 +13894,14 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/FeatureToggleService\/FeatureToggle.swift",
       "kind": "Array",
-      "offset": 1042,
+      "offset": 1302,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/FeatureToggleService\/FeatureToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1345,
+      "offset": 1454,
       "length": 5,
       "value": "false"
     },
@@ -19233,42 +19550,42 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 13688,
+      "offset": 13681,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 14176,
+      "offset": 14169,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 14253,
+      "offset": 14246,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14861,
+      "offset": 14854,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 15482,
+      "offset": 15475,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PaymentModuleVC\/PaymentModulePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 15966,
+      "offset": 15959,
       "length": 2,
       "value": "\"\""
     },
@@ -20143,7 +20460,7 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PurchaseModuleVC\/PurchaseModulePresenter.swift",
       "kind": "Array",
-      "offset": 2984,
+      "offset": 3025,
       "length": 2,
       "value": "[]"
     },
@@ -20702,64 +21019,71 @@
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
-      "kind": "StringLiteral",
-      "offset": 3587,
-      "length": 25,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
-      "kind": "StringLiteral",
-      "offset": 3611,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4443,
+      "offset": 4119,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5382,
+      "offset": 4849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6164,
+      "offset": 5108,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7097,
+      "offset": 6702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7869,
+      "offset": 6955,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7809,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8788,
+      "offset": 8539,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8962,
+      "offset": 8778,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8952,
       "length": 4,
       "value": "true"
     },
@@ -25596,7 +25920,14 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/UserDefaults+Extension.swift",
       "kind": "Array",
-      "offset": 1327,
+      "offset": 1884,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/UserDefaults+Extension.swift",
+      "kind": "Array",
+      "offset": 2054,
       "length": 2,
       "value": "[]"
     },

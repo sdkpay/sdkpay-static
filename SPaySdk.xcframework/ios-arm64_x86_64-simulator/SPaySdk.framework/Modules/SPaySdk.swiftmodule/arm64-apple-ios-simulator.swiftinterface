@@ -163,6 +163,11 @@ extension UIKit.UITableView {
   @_Concurrency.MainActor(unsafe) public func dequeueResuableCell<T>(forIndexPath indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
   @_Concurrency.MainActor(unsafe) public func dequeueReusableHeaderFooterView<T>() -> T where T : UIKit.UITableViewHeaderFooterView
 }
+extension Swift.Optional {
+  public var isNil: Swift.Bool {
+    get
+  }
+}
 extension SPaySdk.NetworkState : Swift.Equatable {}
 extension SPaySdk.NetworkState : Swift.Hashable {}
 extension SPaySdk.NetworkState : Swift.RawRepresentable {}
