@@ -17,6 +17,7 @@ import Network
 @_exported import SPaySdk
 import Security
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit.UIFont
 import UIKit
@@ -121,6 +122,9 @@ extension SPaySdk.SBShimmeringView {
   @objc public static func payWithBankInvoiceId(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
   @objc public static func payWithoutRefresh(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
   @objc public static func payWithPartPay(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
+  @objc public static func payWithBankInvoiceId(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
+  @objc public static func payWithoutRefresh(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
+  @objc public static func payWithPartPay(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
   @objc public static func getAuthURL(_ url: Foundation.URL)
   @objc public static func setBankScheme(_ url: Foundation.URL) throws
   @objc override dynamic public init()

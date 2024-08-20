@@ -5592,6 +5592,232 @@
           },
           {
             "kind": "Function",
+            "name": "payWithBankInvoiceId",
+            "printedName": "payWithBankInvoiceId(paymentRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SBankInvoicePaymentRequest",
+                "printedName": "SPaySdk.SBankInvoicePaymentRequest",
+                "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayState",
+                        "printedName": "SPaySdk.SPayState",
+                        "usr": "c:@M@SPaySdk@E@SPayState"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SPaySdk@objc(cs)SPay(cm)payWithBankInvoiceIdWithPaymentRequest:completion:",
+            "mangledName": "$s7SPaySdk0A0C20payWithBankInvoiceId14paymentRequest10completionyAA05SBankf7PaymentI0C_yAA0A5StateO_S2SSgtctFZ",
+            "moduleName": "SPaySdk",
+            "static": true,
+            "objc_name": "payWithBankInvoiceIdWithPaymentRequest:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "payWithoutRefresh",
+            "printedName": "payWithoutRefresh(paymentRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SBankInvoicePaymentRequest",
+                "printedName": "SPaySdk.SBankInvoicePaymentRequest",
+                "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayState",
+                        "printedName": "SPaySdk.SPayState",
+                        "usr": "c:@M@SPaySdk@E@SPayState"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SPaySdk@objc(cs)SPay(cm)payWithoutRefreshWithPaymentRequest:completion:",
+            "mangledName": "$s7SPaySdk0A0C17payWithoutRefresh14paymentRequest10completionyAA019SBankInvoicePaymentG0C_yAA0A5StateO_S2SSgtctFZ",
+            "moduleName": "SPaySdk",
+            "static": true,
+            "objc_name": "payWithoutRefreshWithPaymentRequest:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "payWithPartPay",
+            "printedName": "payWithPartPay(paymentRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SBankInvoicePaymentRequest",
+                "printedName": "SPaySdk.SBankInvoicePaymentRequest",
+                "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayState",
+                        "printedName": "SPaySdk.SPayState",
+                        "usr": "c:@M@SPaySdk@E@SPayState"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SPaySdk@objc(cs)SPay(cm)payWithPartPayWithPaymentRequest:completion:",
+            "mangledName": "$s7SPaySdk0A0C14payWithPartPay14paymentRequest10completionyAA019SBankInvoicePaymentH0C_yAA0A5StateO_S2SSgtctFZ",
+            "moduleName": "SPaySdk",
+            "static": true,
+            "objc_name": "payWithPartPayWithPaymentRequest:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getAuthURL",
             "printedName": "getAuthURL(_:)",
             "children": [
@@ -7555,6 +7781,20 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SPaySdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SPaySdk"
+      },
+      {
+        "kind": "Import",
         "name": "DeveloperToolsSupport",
         "printedName": "DeveloperToolsSupport",
         "declKind": "Import",
@@ -9018,91 +9258,91 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 2239,
+      "offset": 2259,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 2313,
+      "offset": 2333,
       "length": 23,
       "value": "\"SPaySdk.DefaultAnalyticsManager\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 4686,
+      "offset": 4758,
       "length": 6,
       "value": "\"None\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 4953,
+      "offset": 5025,
       "length": 5,
       "value": "\"200\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5239,
+      "offset": 5311,
       "length": 5,
       "value": "\"200\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "Array",
-      "offset": 5352,
+      "offset": 5424,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5449,
+      "offset": 5521,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5548,
+      "offset": 5620,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 5704,
+      "offset": 5776,
       "length": 6,
       "value": "\"info\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7210,
+      "offset": 7282,
       "length": 24,
       "value": "\"https:\/\/www.google.ru\/\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7306,
+      "offset": 7378,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7357,
+      "offset": 7429,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "StringLiteral",
-      "offset": 7425,
+      "offset": 7497,
       "length": 7,
       "value": "\"getIp\""
     },
@@ -9466,49 +9706,49 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "StringLiteral",
-      "offset": 1385,
+      "offset": 1456,
       "length": 107,
       "value": "\"🚪 Метод авторизации изменился на \""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1592,
+      "offset": 1663,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 12186,
+      "offset": 12174,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14080,
+      "offset": 14068,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 17034,
+      "offset": 17022,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 18666,
+      "offset": 18670,
       "length": 4,
       "value": "true"
     },
@@ -9592,28 +9832,21 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AuthService\/AuthService.swift",
       "kind": "StringLiteral",
-      "offset": 12721,
+      "offset": 12948,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AuthService\/AuthService.swift",
       "kind": "StringLiteral",
-      "offset": 14091,
+      "offset": 13887,
       "length": 9,
       "value": "\"no.info\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AuthService\/AuthService.swift",
       "kind": "Array",
-      "offset": 15351,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/AuthService\/AuthService.swift",
-      "kind": "Array",
-      "offset": 16155,
+      "offset": 15087,
       "length": 2,
       "value": "[]"
     },
@@ -10033,14 +10266,14 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthVC.swift",
       "kind": "StringLiteral",
-      "offset": 4438,
+      "offset": 4398,
       "length": 39,
       "value": "\"🔗 Sid go to: \""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthVC.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 4436,
       "length": 2,
       "value": "\"\""
     },
@@ -11335,21 +11568,21 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/CardModuleVC\/CardModulePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 6782,
+      "offset": 6796,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/CardModuleVC\/CardModulePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7028,
+      "offset": 7042,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/PaymentVC\/Modules\/CardModuleVC\/CardModulePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8220,
+      "offset": 8101,
       "length": 4,
       "value": "true"
     },
@@ -15696,16 +15929,23 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/LiveCircle\/LiveCircleSDKService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1560,
+      "offset": 1591,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/LiveCircle\/LiveCircleSDKService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1976,
+      "offset": 2098,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/LiveCircle\/LiveCircleSDKService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2398,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Helpers\/UI\/Loader.swift",
@@ -21107,77 +21347,77 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2002,
+      "offset": 2768,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4144,
+      "offset": 4911,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4879,
+      "offset": 5646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5138,
+      "offset": 5905,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6002,
+      "offset": 6769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6737,
+      "offset": 7504,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6990,
+      "offset": 7757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7844,
+      "offset": 8612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8579,
+      "offset": 9347,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8818,
+      "offset": 9586,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/SBPayService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8992,
+      "offset": 9760,
       "length": 4,
       "value": "true"
     },
@@ -22283,140 +22523,140 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2653,
+      "offset": 2602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3701,
+      "offset": 3650,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 3692,
       "length": 29,
       "value": "\"\/CSAFront\/oidc\/authorize.do\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 3848,
+      "offset": 3797,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 3933,
+      "offset": 3882,
       "length": 7,
       "value": "\"scope\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 3960,
       "length": 23,
       "value": "\"code_challenge_method\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4119,
+      "offset": 4068,
       "length": 16,
       "value": "\"code_challenge\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4220,
+      "offset": 4169,
       "length": 14,
       "value": "\"redirect_uri\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4309,
+      "offset": 4258,
       "length": 15,
       "value": "\"response_type\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4333,
+      "offset": 4282,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4373,
+      "offset": 4322,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4510,
+      "offset": 4459,
       "length": 42,
       "value": "\"🔗 Sid auth url: \""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 4551,
+      "offset": 4500,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5009,
+      "offset": 4958,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5110,
+      "offset": 5059,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5130,
+      "offset": 5079,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5217,
+      "offset": 5166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 5458,
+      "offset": 5407,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5480,
+      "offset": 5429,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5557,
+      "offset": 5506,
       "length": 4,
       "value": "true"
     },
@@ -22430,21 +22670,21 @@
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6367,
+      "offset": 6316,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 6928,
+      "offset": 6877,
       "length": 39,
       "value": "\"🔗 Sid go to: \""
     },
     {
       "filePath": "\/Users\/20828378\/Desktop\/paySDK-ios\/SPaySdk\/Services\/SeamlessAuthService\/SeamlessAuthService.swift",
       "kind": "StringLiteral",
-      "offset": 6966,
+      "offset": 6915,
       "length": 2,
       "value": "\"\""
     },
@@ -26532,287 +26772,287 @@
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 725,
       "length": 23,
       "value": "\"Palette\/Black_primory\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 842,
+      "offset": 892,
       "length": 19,
       "value": "\"Palette\/GrayLight\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1034,
+      "offset": 1062,
       "length": 23,
       "value": "\"Palette\/Gray_disabled\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1236,
       "length": 23,
       "value": "\"Palette\/Gray_inactive\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1424,
+      "offset": 1408,
       "length": 22,
       "value": "\"Palette\/Gray_primary\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1581,
       "length": 23,
       "value": "\"Palette\/Green_primary\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1759,
       "length": 25,
       "value": "\"Palette\/Green_secondary\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 1928,
       "length": 19,
       "value": "\"Palette\/MainBlack\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2189,
+      "offset": 2085,
       "length": 16,
       "value": "\"Palette\/Orange\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2359,
+      "offset": 2233,
       "length": 13,
       "value": "\"Palette\/Red\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 2410,
       "length": 30,
       "value": "\"Palette\/Second_Gray_disabled\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2746,
+      "offset": 2576,
       "length": 15,
       "value": "\"Palette\/White\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2932,
+      "offset": 2740,
       "length": 22,
       "value": "\"Palette\/White_always\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3330,
+      "offset": 3080,
       "length": 13,
       "value": "\"Image\/Arrow\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3497,
+      "offset": 3225,
       "length": 12,
       "value": "\"Image\/Cart\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3684,
+      "offset": 3390,
       "length": 23,
       "value": "\"Image\/Check_agreement\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3899,
+      "offset": 3583,
       "length": 32,
       "value": "\"Image\/Check_agreement_selected\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4108,
+      "offset": 3770,
       "length": 24,
       "value": "\"Image\/Check_deselected\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4305,
+      "offset": 3945,
       "length": 22,
       "value": "\"Image\/Check_selected\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4485,
+      "offset": 4103,
       "length": 14,
       "value": "\"Image\/Female\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4653,
+      "offset": 4249,
       "length": 12,
       "value": "\"Image\/Logo\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4830,
+      "offset": 4404,
       "length": 18,
       "value": "\"Image\/Logo_clear\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5011,
+      "offset": 4563,
       "length": 17,
       "value": "\"Image\/Logo_main\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5182,
+      "offset": 4712,
       "length": 12,
       "value": "\"Image\/Male\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5354,
+      "offset": 4862,
       "length": 15,
       "value": "\"Image\/Neutral\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5525,
+      "offset": 5011,
       "length": 13,
       "value": "\"Image\/Stick\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5702,
+      "offset": 5166,
       "length": 17,
       "value": "\"Image\/StockCard\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5886,
+      "offset": 5328,
       "length": 19,
       "value": "\"Image\/Success.new\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6059,
+      "offset": 5479,
       "length": 12,
       "value": "\"Image\/User\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6240,
+      "offset": 5638,
       "length": 20,
       "value": "\"Image\/Wainting.new\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6427,
+      "offset": 5803,
       "length": 19,
       "value": "\"Image\/Warning.new\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6612,
+      "offset": 5966,
       "length": 18,
       "value": "\"Image\/background\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6786,
+      "offset": 6118,
       "length": 13,
       "value": "\"Image\/cross\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6976,
+      "offset": 6286,
       "length": 24,
       "value": "\"Image\/error_background\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7171,
+      "offset": 6459,
       "length": 21,
       "value": "\"Image\/failure_state\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7346,
+      "offset": 6612,
       "length": 12,
       "value": "\"Image\/part\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7525,
+      "offset": 6769,
       "length": 19,
       "value": "\"Image\/part_active\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7706,
+      "offset": 6928,
       "length": 16,
       "value": "\"Image\/question\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7892,
+      "offset": 7092,
       "length": 20,
       "value": "\"Image\/redIndicator\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8066,
+      "offset": 7244,
       "length": 12,
       "value": "\"Image\/sbsp\""
     },
     {
       "filePath": "\/Users\/20828378\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-foofmvotfbqtobbfjlgjsunrumee\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphoneos\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8234,
+      "offset": 7390,
       "length": 13,
       "value": "\"Image\/share\""
     }
