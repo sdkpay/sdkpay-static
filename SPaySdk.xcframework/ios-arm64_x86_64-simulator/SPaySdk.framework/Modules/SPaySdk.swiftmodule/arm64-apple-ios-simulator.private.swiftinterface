@@ -6,19 +6,14 @@ import AVFAudio
 import Combine
 import CommonCrypto
 import CoreLocation
-import CoreTelephony
 import CryptoKit
-import Darwin
 import DeveloperToolsSupport
-import Dispatch
 import Foundation
 import LocalAuthentication
-import Network
 @_exported import SPaySdk
 import Security
 import Swift
 import SwiftUI
-import SystemConfiguration
 import UIKit.UIFont
 import UIKit
 import WebKit
@@ -37,10 +32,6 @@ public enum NetworkState : Swift.String, Swift.CaseIterable, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
-}
-extension Network.NWInterface.InterfaceType : Swift.CaseIterable {
-  public static var allCases: [Network.NWInterface.InterfaceType]
-  public typealias AllCases = [Network.NWInterface.InterfaceType]
 }
 public enum SBAxis {
   case horizontal
@@ -115,7 +106,7 @@ extension SPaySdk.SBShimmeringView {
   }
 }
 @_inheritsConvenienceInitializers @objc final public class SPay : ObjectiveC.NSObject {
-  @objc public static func setup(bnplPlan: Swift.Bool = true, resultViewNeeded: Swift.Bool = true, helpers: Swift.Bool = true, needLogs: Swift.Bool = true, helperConfig: SPaySdk.SBHelperConfig = SBHelperConfig(), environment: SPaySdk.SEnvironment = .prod, completion: ((SPaySdk.SPError?) -> Swift.Void)? = nil)
+  @objc public static func setup(bnplPlan: Swift.Bool = true, spasiboBonuses: Swift.Bool = true, resultViewNeeded: Swift.Bool = true, helpers: Swift.Bool = true, needLogs: Swift.Bool = true, helperConfig: SPaySdk.SBHelperConfig = SBHelperConfig(), environment: SPaySdk.SEnvironment = .prod, completion: ((SPaySdk.SPError?) -> Swift.Void)? = nil)
   @objc public static var isReadyForSPay: Swift.Bool {
     @objc get
   }
