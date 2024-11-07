@@ -370,6 +370,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 + (void)getAuthURL:(NSURL * _Nonnull)url;
 /// Метод для передачи
 + (BOOL)setBankScheme:(NSURL * _Nonnull)url error:(NSError * _Nullable * _Nullable)error;
+/// Если в вашем приложении реализован профиль пользователя - вызовите в SDK метод logout в сценарии,
+/// когда пользователь разлогинивается в профиле вашего приложения
++ (void)logout;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

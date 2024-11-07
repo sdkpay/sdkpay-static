@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SPaySdk
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SPaySdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFAudio
 import Combine
@@ -118,6 +118,7 @@ extension SPaySdk.SBShimmeringView {
   @objc public static func payWithPartPay(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
   @objc public static func getAuthURL(_ url: Foundation.URL)
   @objc public static func setBankScheme(_ url: Foundation.URL) throws
+  @objc public static func logout()
   @objc override dynamic public init()
   @objc deinit
 }
