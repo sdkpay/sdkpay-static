@@ -9312,287 +9312,266 @@
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 1333,
-      "length": 12,
-      "value": "\"Image\/Logo\""
-    },
-    {
-      "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
-      "kind": "StringLiteral",
-      "offset": 1400,
-      "length": 18,
-      "value": "\"Image\/Logo_clear\""
-    },
-    {
-      "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
-      "kind": "StringLiteral",
-      "offset": 1472,
-      "length": 17,
-      "value": "\"Image\/Logo_main\""
-    },
-    {
-      "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
-      "kind": "StringLiteral",
-      "offset": 1540,
+      "offset": 1334,
       "length": 13,
       "value": "\"Image\/Stick\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 1609,
+      "offset": 1403,
       "length": 19,
       "value": "\"Image\/Success.new\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 1479,
       "length": 20,
       "value": "\"Image\/Wainting.new\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 1761,
+      "offset": 1555,
       "length": 19,
       "value": "\"Image\/Warning.new\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
+      "offset": 1630,
       "length": 18,
       "value": "\"Image\/background\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 1905,
+      "offset": 1699,
       "length": 13,
       "value": "\"Image\/cross\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 1979,
+      "offset": 1773,
       "length": 24,
       "value": "\"Image\/error_background\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2061,
+      "offset": 1855,
       "length": 21,
       "value": "\"Image\/failure_state\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2132,
+      "offset": 1926,
       "length": 12,
       "value": "\"Image\/info\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2198,
+      "offset": 1992,
       "length": 16,
       "value": "\"Image\/question\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2272,
+      "offset": 2066,
       "length": 20,
       "value": "\"Image\/redIndicator\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
+      "offset": 2137,
       "length": 13,
       "value": "\"Image\/Arrow\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2406,
+      "offset": 2200,
       "length": 12,
       "value": "\"Image\/Cart\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2471,
+      "offset": 2265,
       "length": 15,
       "value": "\"Image\/Spasibo\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2536,
+      "offset": 2330,
       "length": 12,
       "value": "\"Image\/part\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2604,
+      "offset": 2398,
       "length": 19,
       "value": "\"Image\/part_active\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2673,
+      "offset": 2467,
       "length": 12,
       "value": "\"Image\/sbsp\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2737,
+      "offset": 2531,
       "length": 14,
       "value": "\"Image\/Female\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2801,
+      "offset": 2595,
       "length": 12,
       "value": "\"Image\/Male\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2866,
+      "offset": 2660,
       "length": 15,
       "value": "\"Image\/Neutral\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2931,
+      "offset": 2725,
       "length": 12,
       "value": "\"Image\/User\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 2994,
+      "offset": 2788,
       "length": 13,
       "value": "\"Image\/share\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3088,
+      "offset": 2882,
       "length": 15,
       "value": "\"Palette\/White\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3160,
+      "offset": 2954,
       "length": 22,
       "value": "\"Palette\/White_always\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3240,
+      "offset": 3034,
       "length": 23,
       "value": "\"Palette\/Black_primory\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3321,
+      "offset": 3115,
       "length": 23,
       "value": "\"Palette\/Green_primary\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3404,
+      "offset": 3198,
       "length": 25,
       "value": "\"Palette\/Green_secondary\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3486,
+      "offset": 3280,
       "length": 21,
       "value": "\"Palette\/DividerThin\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3562,
+      "offset": 3356,
       "length": 19,
       "value": "\"Palette\/GrayLight\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3639,
+      "offset": 3433,
       "length": 23,
       "value": "\"Palette\/Gray_disabled\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3720,
+      "offset": 3514,
       "length": 23,
       "value": "\"Palette\/Gray_inactive\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3800,
+      "offset": 3594,
       "length": 22,
       "value": "\"Palette\/Gray_primary\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3886,
+      "offset": 3680,
       "length": 30,
       "value": "\"Palette\/Second_Gray_disabled\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 3765,
       "length": 19,
       "value": "\"Palette\/MainBlack\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 4042,
+      "offset": 3836,
       "length": 16,
       "value": "\"Palette\/Orange\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 4107,
+      "offset": 3901,
       "length": 13,
       "value": "\"Palette\/Red\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 4650,
+      "offset": 4444,
       "length": 43,
       "value": "\"Unable to load color asset named \""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/Generated\/Assets.swift",
       "kind": "StringLiteral",
-      "offset": 4691,
+      "offset": 4485,
       "length": 1,
       "value": "\".\""
     },
@@ -14233,189 +14212,189 @@
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 155,
+      "offset": 156,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 186,
+      "offset": 187,
       "length": 3,
       "value": "423"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 213,
+      "offset": 214,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 238,
+      "offset": 239,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 265,
+      "offset": 266,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 278,
+      "offset": 279,
       "length": 7,
       "value": "501"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2389,
+      "offset": 2390,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2410,
+      "offset": 2411,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2440,
+      "offset": 2441,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2465,
+      "offset": 2466,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2492,
+      "offset": 2493,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2514,
+      "offset": 2515,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2532,
+      "offset": 2533,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2559,
+      "offset": 2560,
       "length": 2,
       "value": "-9"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2586,
+      "offset": 2587,
       "length": 4,
       "value": "-403"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2618,
+      "offset": 2619,
       "length": 4,
       "value": "-423"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2646,
+      "offset": 2647,
       "length": 4,
       "value": "-400"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2672,
+      "offset": 2673,
       "length": 4,
       "value": "-404"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2700,
+      "offset": 2701,
       "length": 4,
       "value": "-500"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2724,
+      "offset": 2725,
       "length": 4,
       "value": "-666"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2751,
+      "offset": 2752,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2771,
+      "offset": 2772,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2792,
+      "offset": 2793,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2819,
+      "offset": 2820,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2844,
+      "offset": 2845,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2865,
+      "offset": 2866,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Utilites\/SBError\/SDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2876,
+      "offset": 2877,
       "length": 11,
       "value": "8"
     },
@@ -17007,159 +16986,138 @@
       "kind": "StringLiteral",
       "offset": 4418,
       "length": 12,
-      "value": "\"Image\/Logo\""
-    },
-    {
-      "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4573,
-      "length": 18,
-      "value": "\"Image\/Logo_clear\""
-    },
-    {
-      "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4732,
-      "length": 17,
-      "value": "\"Image\/Logo_main\""
-    },
-    {
-      "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 4881,
-      "length": 12,
       "value": "\"Image\/Male\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5031,
+      "offset": 4568,
       "length": 15,
       "value": "\"Image\/Neutral\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5184,
+      "offset": 4721,
       "length": 15,
       "value": "\"Image\/Spasibo\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5333,
+      "offset": 4870,
       "length": 13,
       "value": "\"Image\/Stick\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5488,
+      "offset": 5025,
       "length": 17,
       "value": "\"Image\/StockCard\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5650,
+      "offset": 5187,
       "length": 19,
       "value": "\"Image\/Success.new\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5801,
+      "offset": 5338,
       "length": 12,
       "value": "\"Image\/User\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5960,
+      "offset": 5497,
       "length": 20,
       "value": "\"Image\/Wainting.new\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6125,
+      "offset": 5662,
       "length": 19,
       "value": "\"Image\/Warning.new\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6288,
+      "offset": 5825,
       "length": 18,
       "value": "\"Image\/background\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6440,
+      "offset": 5977,
       "length": 13,
       "value": "\"Image\/cross\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6608,
+      "offset": 6145,
       "length": 24,
       "value": "\"Image\/error_background\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6781,
+      "offset": 6318,
       "length": 21,
       "value": "\"Image\/failure_state\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6934,
+      "offset": 6471,
       "length": 12,
       "value": "\"Image\/info\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7078,
+      "offset": 6615,
       "length": 12,
       "value": "\"Image\/part\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7235,
+      "offset": 6772,
       "length": 19,
       "value": "\"Image\/part_active\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7394,
+      "offset": 6931,
       "length": 16,
       "value": "\"Image\/question\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7558,
+      "offset": 7095,
       "length": 20,
       "value": "\"Image\/redIndicator\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7710,
+      "offset": 7247,
       "length": 12,
       "value": "\"Image\/sbsp\""
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7856,
+      "offset": 7393,
       "length": 13,
       "value": "\"Image\/share\""
     }
