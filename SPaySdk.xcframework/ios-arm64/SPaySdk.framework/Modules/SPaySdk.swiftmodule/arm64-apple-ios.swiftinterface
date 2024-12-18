@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SPaySdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SPaySdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFAudio
 import Combine
 import CommonCrypto
@@ -26,7 +26,7 @@ public enum NetworkState : Swift.String, Swift.CaseIterable, Swift.Codable {
   public init?(rawValue: Swift.String)
   public typealias AllCases = [SPaySdk.NetworkState]
   public typealias RawValue = Swift.String
-  nonisolated public static var allCases: [SPaySdk.NetworkState] {
+  public static var allCases: [SPaySdk.NetworkState] {
     get
   }
   public var rawValue: Swift.String {
@@ -48,10 +48,10 @@ public enum SBAxis {
   @objc public init(sbp: Swift.Bool = true, creditCard: Swift.Bool = true, debitCard: Swift.Bool = true)
   @objc deinit
 }
-@objc @IBDesignable @_Concurrency.MainActor @preconcurrency final public class SBPButton : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency final public var tapAction: SPaySdk.Action?
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
-  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @IBDesignable @_Concurrency.MainActor(unsafe) final public class SBPButton : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) final public var tapAction: SPaySdk.Action?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc public enum SPayState : Swift.Int {
@@ -154,24 +154,16 @@ extension UIKit.UITableViewCell : SPaySdk.ReusableView {
 extension UIKit.UITableViewHeaderFooterView : SPaySdk.ReusableView {
 }
 extension UIKit.UITableView {
-  @_Concurrency.MainActor @preconcurrency public func register<T>(cellClass: T.Type) where T : UIKit.UITableViewCell
-  @_Concurrency.MainActor @preconcurrency public func register<T>(aClass: T.Type) where T : UIKit.UITableViewHeaderFooterView
-  @_Concurrency.MainActor @preconcurrency public func dequeueResuableCell<T>(forIndexPath indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
-  @_Concurrency.MainActor @preconcurrency public func dequeueReusableHeaderFooterView<T>() -> T where T : UIKit.UITableViewHeaderFooterView
+  @_Concurrency.MainActor(unsafe) public func register<T>(cellClass: T.Type) where T : UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) public func register<T>(aClass: T.Type) where T : UIKit.UITableViewHeaderFooterView
+  @_Concurrency.MainActor(unsafe) public func dequeueResuableCell<T>(forIndexPath indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) public func dequeueReusableHeaderFooterView<T>() -> T where T : UIKit.UITableViewHeaderFooterView
 }
-#if compiler(>=5.3) && $NoncopyableGenerics
 extension Swift.Optional {
   public var isNil: Swift.Bool {
     get
   }
 }
-#else
-extension Swift.Optional {
-  public var isNil: Swift.Bool {
-    get
-  }
-}
-#endif
 extension SPaySdk.NetworkState : Swift.Equatable {}
 extension SPaySdk.NetworkState : Swift.Hashable {}
 extension SPaySdk.NetworkState : Swift.RawRepresentable {}
