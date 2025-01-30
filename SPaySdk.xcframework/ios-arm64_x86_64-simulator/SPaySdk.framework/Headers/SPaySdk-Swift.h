@@ -359,12 +359,19 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
 /// Единый метод для оплаты
 + (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
+/// Метод оплаты по расчетному счету
++ (void)payWithPaymentAccountsWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
+/// Метод оплаты по расчетному счету
++ (void)payWithPaymentAccountsWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
 + (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
+/// Метод оплаты только для оплаты частями
++ (void)payWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
 + (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 + (void)payWithBankInvoiceIdWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 + (void)payWithoutRefreshWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 + (void)payWithPartPayWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
 + (void)getAuthURL:(NSURL * _Nonnull)url;
@@ -837,12 +844,19 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
 /// Единый метод для оплаты
 + (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
+/// Метод оплаты по расчетному счету
++ (void)payWithPaymentAccountsWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
+/// Метод оплаты по расчетному счету
++ (void)payWithPaymentAccountsWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
 + (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
+/// Метод оплаты только для оплаты частями
++ (void)payWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
 + (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 + (void)payWithBankInvoiceIdWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 + (void)payWithoutRefreshWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 + (void)payWithPartPayWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
 + (void)getAuthURL:(NSURL * _Nonnull)url;
