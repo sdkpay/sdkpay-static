@@ -6099,6 +6099,81 @@
           },
           {
             "kind": "Function",
+            "name": "payWithBonuses",
+            "printedName": "payWithBonuses(paymentRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SBankInvoicePaymentRequest",
+                "printedName": "SPaySdk.SBankInvoicePaymentRequest",
+                "usr": "c:@M@SPaySdk@objc(cs)SBankInvoiceIdPaymentRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(SPaySdk.SPayState, Swift.String, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPayState",
+                        "printedName": "SPaySdk.SPayState",
+                        "usr": "c:@M@SPaySdk@E@SPayState"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SPaySdk@objc(cs)SPay(cm)payWithBonusesWithPaymentRequest:completion:",
+            "mangledName": "$s7SPaySdk0A0C14payWithBonuses14paymentRequest10completionyAA019SBankInvoicePaymentG0C_yAA0A5StateO_S2SSgtctFZ",
+            "moduleName": "SPaySdk",
+            "static": true,
+            "objc_name": "payWithBonusesWithPaymentRequest:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getAuthURL",
             "printedName": "getAuthURL(_:)",
             "children": [
