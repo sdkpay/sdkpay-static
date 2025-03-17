@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		S1orh1oEpLQD7GWUVnHFkRTeO7s=
+		tVKiTKIWg3GTJK5/g4qxG494x4k=
 		</data>
 		<key>Background.json</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5XNaOb9z6sdI0PeWWGsU/oJFq6s=
+		4RuMYLrcFaQQ/5ylILOoYkwN6mo=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DnEqUDLK0YpURbrh4DFyyb32fLE=
+		CcNIzOGJ8bkwoTSo7MoHw66djko=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePHPJJDyXb7sSRg0P68CGbv/R+uVWJKhelB2R3EFU+4=
+			ytBTgcSfmbE9OI6P0aVxTVdktV7IiIrq4CRKOxU2EBo=
 			</data>
 		</dict>
 		<key>Background.json</key>
@@ -353,7 +353,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l/fJqu2mYgbwlpIbhId6bmBklSTFlHQRdimEBjGugEA=
+			6sAVIsMkSX3jK06bi9ugm9pp0f4uaIHQ+iVs+rGMprg=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -388,7 +388,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CjhvwKLXRe6yiUWsoA5VGDcQwdiRC7qYNwo7rWToNDA=
+			n8uamjLU8a2+s2tXowmQDH1Tz01uDM5BCKR58bOVeRU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
