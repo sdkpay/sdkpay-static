@@ -331,14 +331,6 @@ SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
-SWIFT_CLASS_NAMED("SBindingPaymentRequest")
-@interface SBindingPaymentRequest : NSObject
-- (nonnull instancetype)initWithApiKey:(NSString * _Nonnull)apiKey merchantLogin:(NSString * _Nonnull)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId orderNumber:(NSString * _Nonnull)orderNumber bindingId:(NSString * _Nonnull)bindingId redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
   SEnvironmentProd = 0,
   SEnvironmentSandboxWithoutBankApp = 1,
@@ -356,8 +348,6 @@ SWIFT_CLASS("_TtC7SPaySdk7SPError")
 
 @class UIViewController;
 enum SPayState : NSInteger;
-enum SPayMethod : NSInteger;
-@class SPaymentRequest;
 @class NSURL;
 
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
@@ -368,25 +358,21 @@ SWIFT_CLASS("_TtC7SPaySdk4SPay")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
 /// Единый метод для оплаты
-+ (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты по расчетному счету
-+ (void)payWithPaymentAccountsWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithPaymentAccountsWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты по расчетному счету
-+ (void)payWithPaymentAccountsWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithPaymentAccountsWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
-+ (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
-+ (void)payWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithView:(UIViewController * _Nonnull)view method:(enum SPayMethod)method request:(SPaymentRequest * _Nonnull)request completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nonnull, NSString * _Nonnull))completion;
++ (void)payWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
-+ (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithBankInvoiceIdWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithoutRefreshWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithPartPayWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-/// Метод для оплаты по связке
-+ (void)payWithBindingWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBindingPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithBonusesWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithBankInvoiceIdWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithoutRefreshWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithPartPayWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
 + (void)getAuthURL:(NSURL * _Nonnull)url;
 /// Метод для передачи
@@ -397,16 +383,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM_NAMED(NSInteger, SPayMethod, "SPayMethod", open) {
-  SPayMethodDefault = 0,
-  SPayMethodWithBankInvoiceId = 1,
-  SPayMethodWithBonuses = 2,
-  SPayMethodWithoutRefresh = 3,
-  SPayMethodWithPaymentAccount = 4,
-  SPayMethodWithPartPay = 5,
-  SPayMethodWithBinding = 6,
-};
-
 typedef SWIFT_ENUM(NSInteger, SPayState, open) {
   SPayStateSuccess = 0,
   SPayStateWaiting = 1,
@@ -414,10 +390,42 @@ typedef SWIFT_ENUM(NSInteger, SPayState, open) {
   SPayStateError = 3,
 };
 
+typedef SWIFT_ENUM(NSInteger, SPayTokenState, open) {
+  SPayTokenStateSuccess = 0,
+  SPayTokenStateCancel = 1,
+  SPayTokenStateError = 2,
+};
+
 
 SWIFT_CLASS_NAMED("SPaymentRequest")
 @interface SPaymentRequest : NSObject
-- (nonnull instancetype)initWithApiKey:(NSString * _Nonnull)apiKey bankInvoiceId:(NSString * _Nonnull)bankInvoiceId orderNumber:(NSString * _Nonnull)orderNumber merchantLogin:(NSString * _Nonnull)merchantLogin redirectUri:(NSString * _Nonnull)redirectUri binding:(NSString * _Nullable)binding OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithOrderId:(NSString * _Nonnull)orderId paymentToken:(NSString * _Nonnull)paymentToken;
+- (nonnull instancetype)initWithOrderId:(NSString * _Nonnull)orderId paymentTokenId:(NSString * _Nonnull)paymentTokenId;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("SPaymentTokenRequest")
+@interface SPaymentTokenRequest : NSObject
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderNumber:(NSString * _Nonnull)orderNumber orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
+- (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency apiKey:(NSString * _Nullable)apiKey;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
+@interface SPaymentTokenResponseModel : NSObject
+/// Платежный токен. Отсутствует, если заполнен paymentTokenId
+@property (nonatomic, copy) NSString * _Nullable paymentToken;
+/// Идентификатор платежного токена. Отсутствует, если заполнен paymentToken
+@property (nonatomic, copy) NSString * _Nullable paymentTokenId;
+/// Срок действия платежного токена в формате UNIX (POSIX) времени
+@property (nonatomic) NSInteger tokenExpiration;
+/// Ошибка получения токена
+@property (nonatomic, copy) NSString * _Nullable error;
+- (nonnull instancetype)initWithPaymentToken:(NSString * _Nullable)paymentToken paymentTokenId:(NSString * _Nullable)paymentTokenId tokenExpiration:(NSInteger)tokenExpiration error:(NSString * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -808,14 +816,6 @@ SWIFT_CLASS_NAMED("SBankInvoicePaymentRequest")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-
-SWIFT_CLASS_NAMED("SBindingPaymentRequest")
-@interface SBindingPaymentRequest : NSObject
-- (nonnull instancetype)initWithApiKey:(NSString * _Nonnull)apiKey merchantLogin:(NSString * _Nonnull)merchantLogin bankInvoiceId:(NSString * _Nonnull)bankInvoiceId orderNumber:(NSString * _Nonnull)orderNumber bindingId:(NSString * _Nonnull)bindingId redirectUri:(NSString * _Nonnull)redirectUri OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 typedef SWIFT_ENUM(NSInteger, SEnvironment, open) {
   SEnvironmentProd = 0,
   SEnvironmentSandboxWithoutBankApp = 1,
@@ -833,8 +833,6 @@ SWIFT_CLASS("_TtC7SPaySdk7SPError")
 
 @class UIViewController;
 enum SPayState : NSInteger;
-enum SPayMethod : NSInteger;
-@class SPaymentRequest;
 @class NSURL;
 
 SWIFT_CLASS("_TtC7SPaySdk4SPay")
@@ -845,25 +843,21 @@ SWIFT_CLASS("_TtC7SPaySdk4SPay")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;)
 + (BOOL)isReadyForSPay SWIFT_WARN_UNUSED_RESULT;
 /// Единый метод для оплаты
-+ (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithBankInvoiceIdWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты по расчетному счету
-+ (void)payWithPaymentAccountsWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithPaymentAccountsWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты по расчетному счету
-+ (void)payWithPaymentAccountsWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithPaymentAccountsWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
-+ (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithoutRefreshWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
-+ (void)payWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithView:(UIViewController * _Nonnull)view method:(enum SPayMethod)method request:(SPaymentRequest * _Nonnull)request completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nonnull, NSString * _Nonnull))completion;
++ (void)payWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод оплаты только для оплаты частями
-+ (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithBankInvoiceIdWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithoutRefreshWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithPartPayWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-/// Метод для оплаты по связке
-+ (void)payWithBindingWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBindingPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
-+ (void)payWithBonusesWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion SWIFT_DEPRECATED_MSG("Используйте новый метод pay");
++ (void)payWithPartPayWith:(UIViewController * _Nonnull)viewController paymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithBankInvoiceIdWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithoutRefreshWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
++ (void)payWithPartPayWithPaymentRequest:(SBankInvoiceIdPaymentRequest * _Nonnull)paymentRequest completion:(void (^ _Nonnull)(enum SPayState, NSString * _Nonnull, NSString * _Nullable))completion;
 /// Метод для авторизации банка необходимо интегрировать в AppDelegate
 + (void)getAuthURL:(NSURL * _Nonnull)url;
 /// Метод для передачи
@@ -874,16 +868,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isReadyForSPay;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-typedef SWIFT_ENUM_NAMED(NSInteger, SPayMethod, "SPayMethod", open) {
-  SPayMethodDefault = 0,
-  SPayMethodWithBankInvoiceId = 1,
-  SPayMethodWithBonuses = 2,
-  SPayMethodWithoutRefresh = 3,
-  SPayMethodWithPaymentAccount = 4,
-  SPayMethodWithPartPay = 5,
-  SPayMethodWithBinding = 6,
-};
-
 typedef SWIFT_ENUM(NSInteger, SPayState, open) {
   SPayStateSuccess = 0,
   SPayStateWaiting = 1,
@@ -891,10 +875,42 @@ typedef SWIFT_ENUM(NSInteger, SPayState, open) {
   SPayStateError = 3,
 };
 
+typedef SWIFT_ENUM(NSInteger, SPayTokenState, open) {
+  SPayTokenStateSuccess = 0,
+  SPayTokenStateCancel = 1,
+  SPayTokenStateError = 2,
+};
+
 
 SWIFT_CLASS_NAMED("SPaymentRequest")
 @interface SPaymentRequest : NSObject
-- (nonnull instancetype)initWithApiKey:(NSString * _Nonnull)apiKey bankInvoiceId:(NSString * _Nonnull)bankInvoiceId orderNumber:(NSString * _Nonnull)orderNumber merchantLogin:(NSString * _Nonnull)merchantLogin redirectUri:(NSString * _Nonnull)redirectUri binding:(NSString * _Nullable)binding OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithOrderId:(NSString * _Nonnull)orderId paymentToken:(NSString * _Nonnull)paymentToken;
+- (nonnull instancetype)initWithOrderId:(NSString * _Nonnull)orderId paymentTokenId:(NSString * _Nonnull)paymentTokenId;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("SPaymentTokenRequest")
+@interface SPaymentTokenRequest : NSObject
+- (nonnull instancetype)initWithMerchantLogin:(NSString * _Nullable)merchantLogin orderNumber:(NSString * _Nonnull)orderNumber orderId:(NSString * _Nullable)orderId bankInvoiceId:(NSString * _Nullable)bankInvoiceId redirectUri:(NSString * _Nonnull)redirectUri;
+- (nonnull instancetype)initWithRedirectUri:(NSString * _Nonnull)redirectUri merchantLogin:(NSString * _Nullable)merchantLogin amount:(NSInteger)amount currency:(NSString * _Nonnull)currency mobilePhone:(NSString * _Nullable)mobilePhone orderNumber:(NSString * _Nonnull)orderNumber recurrentExipiry:(NSString * _Nonnull)recurrentExipiry recurrentFrequency:(NSInteger)recurrentFrequency apiKey:(NSString * _Nullable)apiKey;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("SPaymentTokenResponseModel")
+@interface SPaymentTokenResponseModel : NSObject
+/// Платежный токен. Отсутствует, если заполнен paymentTokenId
+@property (nonatomic, copy) NSString * _Nullable paymentToken;
+/// Идентификатор платежного токена. Отсутствует, если заполнен paymentToken
+@property (nonatomic, copy) NSString * _Nullable paymentTokenId;
+/// Срок действия платежного токена в формате UNIX (POSIX) времени
+@property (nonatomic) NSInteger tokenExpiration;
+/// Ошибка получения токена
+@property (nonatomic, copy) NSString * _Nullable error;
+- (nonnull instancetype)initWithPaymentToken:(NSString * _Nullable)paymentToken paymentTokenId:(NSString * _Nullable)paymentTokenId tokenExpiration:(NSInteger)tokenExpiration error:(NSString * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
