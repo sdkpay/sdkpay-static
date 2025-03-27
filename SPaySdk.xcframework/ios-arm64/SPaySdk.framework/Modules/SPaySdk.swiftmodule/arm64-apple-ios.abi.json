@@ -11377,56 +11377,56 @@
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1243,
+      "offset": 1248,
       "length": 12,
       "value": "\"SDKVersion\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1271,
+      "offset": 1276,
       "length": 9,
       "value": "\"No info\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1360,
+      "offset": 1365,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1393,
+      "offset": 1398,
       "length": 9,
       "value": "\"No info\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
+      "offset": 1491,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1530,
+      "offset": 1535,
       "length": 9,
       "value": "\"No info\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1621,
+      "offset": 1626,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 1659,
       "length": 9,
       "value": "\"No info\""
     },
@@ -19931,49 +19931,49 @@
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/PaymentButton\/PaymentButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1725,
+      "offset": 1699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/PaymentButton\/PaymentButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1791,
+      "offset": 1765,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/PaymentButton\/PaymentButton.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 2376,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/PaymentButton\/PaymentButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2613,
+      "offset": 2587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/PaymentButton\/PaymentButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2727,
+      "offset": 2701,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/PaymentButton\/PaymentButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2850,
+      "offset": 2824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/PaymentButton\/PaymentButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3179,
+      "offset": 3153,
       "length": 5,
       "value": "false"
     },
@@ -21863,49 +21863,49 @@
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SBPButton\/SBPButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1263,
+      "offset": 1237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SBPButton\/SBPButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 1329,
+      "offset": 1303,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SBPButton\/SBPButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2335,
+      "offset": 2309,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SBPButton\/SBPButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2422,
+      "offset": 2396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SBPButton\/SBPButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2610,
+      "offset": 2584,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SBPButton\/SBPButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2733,
+      "offset": 2707,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/paySDK-ios\/SPaySdk\/Public\/SBPButton\/SBPButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3062,
+      "offset": 3036,
       "length": 5,
       "value": "false"
     },
