@@ -149,7 +149,6 @@ public enum SPayMethod : Swift.Comparable {
   case withPaymentAccount
   case withPartPay
   case withBinding(bindingId: Swift.String)
-  case withPhoneNumber
   public static func < (a: SPaySdk.SPayMethod, b: SPaySdk.SPayMethod) -> Swift.Bool
   public static func == (a: SPaySdk.SPayMethod, b: SPaySdk.SPayMethod) -> Swift.Bool
 }
@@ -161,7 +160,6 @@ public enum SPayMethod : Swift.Comparable {
   case withPaymentAccount
   case withPartPay
   case withBinding
-  case withPhoneNumber
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

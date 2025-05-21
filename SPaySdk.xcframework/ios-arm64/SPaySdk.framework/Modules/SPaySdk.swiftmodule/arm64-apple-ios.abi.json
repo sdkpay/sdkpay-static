@@ -7105,43 +7105,6 @@
             "moduleName": "SPaySdk"
           },
           {
-            "kind": "Var",
-            "name": "withPhoneNumber",
-            "printedName": "withPhoneNumber",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(SPaySdk.SPayMethod.Type) -> SPaySdk.SPayMethod",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SPayMethod",
-                    "printedName": "SPaySdk.SPayMethod",
-                    "usr": "s:7SPaySdk0A6MethodO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "SPaySdk.SPayMethod.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SPayMethod",
-                        "printedName": "SPaySdk.SPayMethod",
-                        "usr": "s:7SPaySdk0A6MethodO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:7SPaySdk0A6MethodO15withPhoneNumberyA2CmF",
-            "mangledName": "$s7SPaySdk0A6MethodO15withPhoneNumberyA2CmF",
-            "moduleName": "SPaySdk"
-          },
-          {
             "kind": "Function",
             "name": "<",
             "printedName": "<(_:_:)",
@@ -7535,47 +7498,6 @@
               "ObjC"
             ],
             "fixedbinaryorder": 6
-          },
-          {
-            "kind": "Var",
-            "name": "withPhoneNumber",
-            "printedName": "withPhoneNumber",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(SPaySdk.SPayMethodObjc.Type) -> SPaySdk.SPayMethodObjc",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SPayMethodObjc",
-                    "printedName": "SPaySdk.SPayMethodObjc",
-                    "usr": "c:@M@SPaySdk@E@SPayMethodObjc"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "SPaySdk.SPayMethodObjc.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SPayMethodObjc",
-                        "printedName": "SPaySdk.SPayMethodObjc",
-                        "usr": "c:@M@SPaySdk@E@SPayMethodObjc"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@SPaySdk@E@SPayMethodObjc@SPayMethodObjcWithPhoneNumber",
-            "mangledName": "$s7SPaySdk0A10MethodObjcO15withPhoneNumberyA2CmF",
-            "moduleName": "SPaySdk",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 7
           },
           {
             "kind": "Constructor",
@@ -15769,51 +15691,44 @@
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 424,
       "length": 17,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 451,
       "length": 11,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 497,
+      "offset": 472,
       "length": 14,
       "value": "3"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 496,
       "length": 18,
       "value": "4"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 549,
+      "offset": 524,
       "length": 11,
       "value": "5"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",
       "kind": "IntegerLiteral",
-      "offset": 570,
+      "offset": 545,
       "length": 11,
       "value": "6"
-    },
-    {
-      "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",
-      "kind": "IntegerLiteral",
-      "offset": 591,
-      "length": 15,
-      "value": "7"
     },
     {
       "filePath": "\/Users\/mihailseregin\/Desktop\/WORK\/paySDK-ios\/SPaySdk\/Services\/SecureChallengeService\/SecureChallengeService.swift",

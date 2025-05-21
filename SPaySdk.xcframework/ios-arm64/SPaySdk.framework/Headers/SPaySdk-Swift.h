@@ -422,7 +422,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, SPayMethodObjc, "SPayMethodObjc", open) {
   SPayMethodObjcWithPaymentAccount = 4,
   SPayMethodObjcWithPartPay = 5,
   SPayMethodObjcWithBinding = 6,
-  SPayMethodObjcWithPhoneNumber = 7,
 };
 
 typedef SWIFT_ENUM(NSInteger, SPayState, open) {
