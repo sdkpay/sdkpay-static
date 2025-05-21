@@ -33,6 +33,9 @@ public enum NetworkState : Swift.String, Swift.CaseIterable, Swift.Codable {
     get
   }
 }
+extension Foundation.Bundle {
+  public static var sdkBundle: Foundation.Bundle
+}
 public enum SBAxis {
   case horizontal
   case vertical
@@ -89,6 +92,10 @@ extension SPaySdk.SBShimmeringView {
   @objc public var errorDescription: Swift.String
   @objc deinit
 }
+extension SPaySdk.SPay {
+  public static func pay(view: UIKit.UIViewController, method: SPaySdk.SPayMethod, request: SPaySdk.SPaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ localSessionId: Swift.String, _ bankInvoiceId: Swift.String, _ description: Swift.String) -> Swift.Void)
+  @objc public static func pay(view: UIKit.UIViewController, method: SPaySdk.SPayMethodObjc, request: SPaySdk.SPaymentRequestObjc, completion: @escaping (_ state: SPaySdk.SPayState, _ localSessionId: Swift.String, _ bankInvoiceId: Swift.String, _ description: Swift.String) -> Swift.Void)
+}
 @objc public enum SEnvironment : Swift.Int {
   case prod = 0
   case sandboxWithoutBankApp
@@ -114,7 +121,6 @@ extension SPaySdk.SBShimmeringView {
   @objc public static func payWithoutRefresh(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func pay(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  @objc public static func pay(view: UIKit.UIViewController, method: SPaySdk.SPayMethod, request: SPaySdk.SPaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ localSessionId: Swift.String, _ bankInvoiceId: Swift.String, _ description: Swift.String) -> Swift.Void)
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithPartPay(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
   @available(*, deprecated, message: "Используйте новый метод pay")
@@ -135,7 +141,19 @@ extension SPaySdk.SBShimmeringView {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc(SPayMethod) public enum SPayMethod : Swift.Int {
+public enum SPayMethod : Swift.Comparable {
+  case `default`
+  case withBankInvoiceId
+  case withBonuses
+  case withoutRefresh
+  case withPaymentAccount
+  case withPartPay
+  case withBinding(bindingId: Swift.String)
+  case withPhoneNumber
+  public static func < (a: SPaySdk.SPayMethod, b: SPaySdk.SPayMethod) -> Swift.Bool
+  public static func == (a: SPaySdk.SPayMethod, b: SPaySdk.SPayMethod) -> Swift.Bool
+}
+@objc(SPayMethodObjc) public enum SPayMethodObjc : Swift.Int {
   case `default`
   case withBankInvoiceId
   case withBonuses
@@ -143,14 +161,19 @@ extension SPaySdk.SBShimmeringView {
   case withPaymentAccount
   case withPartPay
   case withBinding
+  case withPhoneNumber
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-@objc(SPaymentRequest) final public class SPaymentRequest : ObjectiveC.NSObject {
-  @objc public init(apiKey: Swift.String, bankInvoiceId: Swift.String, orderNumber: Swift.String, merchantLogin: Swift.String, redirectUri: Swift.String, binding: Swift.String? = nil)
+@objc final public class SPaymentRequest : ObjectiveC.NSObject {
+  @objc public init(apiKey: Swift.String, bankInvoiceId: Swift.String, orderNumber: Swift.String, merchantLogin: Swift.String, redirectUri: Swift.String, phoneNumber: Swift.String? = nil)
+  @objc deinit
+}
+@objc(SPaymentRequestObjc) final public class SPaymentRequestObjc : ObjectiveC.NSObject {
+  @objc public init(apiKey: Swift.String, bankInvoiceId: Swift.String, orderNumber: Swift.String, merchantLogin: Swift.String, redirectUri: Swift.String, bindingId: Swift.String? = nil)
   @objc deinit
 }
 extension UIKit.UIImageView : SPaySdk.SBShimmeringView {
@@ -196,6 +219,6 @@ extension SPaySdk.SPayState : Swift.RawRepresentable {}
 extension SPaySdk.SEnvironment : Swift.Equatable {}
 extension SPaySdk.SEnvironment : Swift.Hashable {}
 extension SPaySdk.SEnvironment : Swift.RawRepresentable {}
-extension SPaySdk.SPayMethod : Swift.Equatable {}
-extension SPaySdk.SPayMethod : Swift.Hashable {}
-extension SPaySdk.SPayMethod : Swift.RawRepresentable {}
+extension SPaySdk.SPayMethodObjc : Swift.Equatable {}
+extension SPaySdk.SPayMethodObjc : Swift.Hashable {}
+extension SPaySdk.SPayMethodObjc : Swift.RawRepresentable {}
