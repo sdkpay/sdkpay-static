@@ -1209,26 +1209,6 @@
       },
       {
         "kind": "Import",
-        "name": "ClickstreamAnalytics",
-        "printedName": "ClickstreamAnalytics",
-        "declKind": "Import",
-        "moduleName": "SPaySdk",
-        "declAttributes": [
-          "ImplementationOnly"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SPaySdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -11820,20 +11800,6 @@
       "offset": 842,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alexanderipatov\/Documents\/SBER\/SPaySDKs\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 92,
-      "value": "\"https:\/\/iftmpclickstream.testonline.sberbank.ru:8097\/metrics\/ecosystem\/sdk-sber-pay-in-app\""
-    },
-    {
-      "filePath": "\/Users\/alexanderipatov\/Documents\/SBER\/SPaySDKs\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
-      "kind": "StringLiteral",
-      "offset": 382,
-      "length": 66,
-      "value": "\"d12d860723095964741a09ba379620db1ac48784f35133ff6ca5db714311d250\""
     },
     {
       "filePath": "\/Users\/alexanderipatov\/Documents\/SBER\/SPaySDKs\/SPaySdk\/Presentation\/PaymentVC\/Modules\/PartPayModuleVC\/Views\/CommissionLabel.swift",
