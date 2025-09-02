@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SPaySdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SPaySdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFAudio
 import Combine
 import CommonCrypto
@@ -22,7 +22,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public typealias Action = () -> Swift.Void
+public typealias Action = (() -> Swift.Void)
 public enum NetworkState : Swift.String, Swift.CaseIterable, Swift.Codable {
   case Mocker, Prom, Ift, Psi, Local
   public init?(rawValue: Swift.String)
@@ -197,11 +197,19 @@ extension UIKit.UITableView {
   @_Concurrency.MainActor @preconcurrency public func dequeueResuableCell<T>(forIndexPath indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
   @_Concurrency.MainActor @preconcurrency public func dequeueReusableHeaderFooterView<T>() -> T where T : UIKit.UITableViewHeaderFooterView
 }
+#if compiler(>=5.3) && $NoncopyableGenerics
 extension Swift.Optional {
   public var isNil: Swift.Bool {
     get
   }
 }
+#else
+extension Swift.Optional {
+  public var isNil: Swift.Bool {
+    get
+  }
+}
+#endif
 extension SPaySdk.NetworkState : Swift.Equatable {}
 extension SPaySdk.NetworkState : Swift.Hashable {}
 extension SPaySdk.NetworkState : Swift.RawRepresentable {}
