@@ -6819,6 +6819,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -11240,21 +11250,21 @@
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1135,
+      "offset": 1139,
       "length": 24,
       "value": "\"SPaySdkResourcesBundle\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1169,
+      "offset": 1173,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Extensions\/Bundle+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1416,
+      "offset": 1420,
       "length": 75,
       "value": "\"Добавьте бандл SPaySdkResourcesBundle в ваш проект\""
     },
@@ -11317,35 +11327,35 @@
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1082,
+      "offset": 1258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1794,
+      "offset": 1970,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2054,
+      "offset": 2230,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 2402,
+      "offset": 2578,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2433,
+      "offset": 2609,
       "length": 4,
       "value": "true"
     },
@@ -11649,6 +11659,13 @@
       "offset": 538,
       "length": 46,
       "value": "\"bdrBhpj38ffhxpubzkINl0rG+UyossdhcBYj+Zx2fcc=\""
+    },
+    {
+      "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Services\/NetworkService\/CertificateValidator\/Certificates.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 46,
+      "value": "\"qDFRLkvaDP94ZnuQzfFbtTRFab8nuq4A2b4vZXm2Ivk=\""
     },
     {
       "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/ChallengeVC\/ChallengeVC.swift",
@@ -18334,6 +18351,20 @@
       "offset": 717,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/WebViewVC\/WebViewVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1347,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/21903050\/Desktop\/paySDK-ios\/SPaySdk\/Presentation\/WebViewVC\/WebViewVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1386,
+      "length": 2,
+      "value": "20"
     },
     {
       "filePath": "\/Users\/21903050\/Library\/Developer\/Xcode\/DerivedData\/SPaySdk-dcoojxrkupmqqtcfrmdoyhgjptfg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SPaySdk\/IntermediateBuildFilesPath\/SPaySdk.build\/Release-iphonesimulator\/SPaySdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
